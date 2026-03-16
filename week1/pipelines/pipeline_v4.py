@@ -25,13 +25,13 @@ def create_table(conn):
     conn.commit()
     logger.info("Table ready")
 
-def get_connection():
+def get_connection(config):
     return psycopg2.connect(
-        host="127.0.0.1",
-        port=5433,
-        dbname="dedb",
-        user="deuser",
-        password="pass123"
+        host= config.DB_HOST,
+        port= config.DB_PORT,
+        dbname= config.DB_NAME,
+        user= config.DB_USER,
+        password= config.DB_PASSWORD
     )
 
 def extract(filepath: str) -> list[dict]:
@@ -56,10 +56,10 @@ def transform(records: list[dict]) -> list[dict]:
     return transformed  # 👈 outside the loop
     
 
-def load_with_retry(records: list[dict], retries: int = 3, delay: int = 2) -> None:
+def load_with_retry(records: list[dict], config, retries: int = 3, delay: int = 2) -> None:
     for attempt in range(retries):
         try:
-            conn = get_connection()  # YOUR CODE: get the connection
+            conn = get_connection(config)  # YOUR CODE: get the connection
             with conn.cursor() as cur:
                 for r in records:
                     cur.execute("""
@@ -73,17 +73,19 @@ def load_with_retry(records: list[dict], retries: int = 3, delay: int = 2) -> No
             logger.warning(f"Attempt {attempt +1} failed : {e}")
             time.sleep(delay)  # YOUR CODE: wait before retrying
     raise Exception ("all retries failed")
-def run_pipeline():
+def run_pipeline(config):
     logger.info("=== Pipeline started ===")
-    raw     = extract("week1/sales.csv")
+    conn = get_connection(config)
+    raw     = extract("week1/data/sales.csv")
     cleaned = transform(raw)
     
     if not cleaned:
         logger.error("No valid records to load. Aborting.")
         return
     
-    load_with_retry(cleaned)
+    load_with_retry(cleaned, config)
     logger.info("=== Pipeline finished ===")
 
 if __name__ == "__main__":
-    run_pipeline()
+    from config import Config
+    run_pipeline(Config())  # ✅
