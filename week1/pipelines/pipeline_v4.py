@@ -48,7 +48,7 @@ def transform(records: list[dict]) -> list[dict]:
                 "id": record["id"],
                 "name": record["name"],
                 "sales": float(record["sales"]),
-                "date": record["date"],
+                "date": datetime.strptime(record["date"], "%Y-%m-%d").date(),
                 "loaded_at": datetime.now()
             })
         except ValueError:
@@ -76,6 +76,7 @@ def load_with_retry(records: list[dict], config, retries: int = 3, delay: int = 
 def run_pipeline(config):
     logger.info("=== Pipeline started ===")
     conn = get_connection(config)
+    create_table(conn)
     raw     = extract("week1/data/sales.csv")
     cleaned = transform(raw)
     
@@ -86,6 +87,3 @@ def run_pipeline(config):
     load_with_retry(cleaned, config)
     logger.info("=== Pipeline finished ===")
 
-if __name__ == "__main__":
-    from config import Config
-    run_pipeline(Config())  # ✅
