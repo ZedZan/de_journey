@@ -87,3 +87,9 @@ def run_pipeline(config):
     load_with_retry(cleaned, config)
     logger.info("=== Pipeline finished ===")
 
+
+if __name__ == "__main__":
+    from week1.config import Config
+    conn = get_connection(Config())
+    create_table(conn)
+    conn.close()
