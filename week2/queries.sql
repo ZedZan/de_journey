@@ -41,3 +41,52 @@ INNER JOIN dim_customer as cus
 ON cus.customer_id = fa.customer_id
 GROUP BY cus.name
 ORDER BY revenue;
+
+
+
+
+WITH customer_revenue AS (
+	SELECT cus.name, cus.country, sum(fa.total_amount) AS revenue
+  	FROM fact_sales AS fa 
+  	INNER JOIN dim_customer as cus
+  	ON cus.customer_id = fa.customer_id
+  	GROUP BY cus.name, cus.country 
+  	HAVING SUM(fa.total_amount) >= 1000
+  	ORDER BY revenue DESC
+)
+SELECT name, country, revenue 
+FROM customer_revenue 
+
+
+
+WITH units_per_product AS (
+    SELECT pr.name, pr.category, SUM(fa.quantity) as quantity 
+  	FROM fact_sales as fa 
+  	INNER join dim_products as pr 
+  	ON pr.product_id = fa.product_id 
+  	GROUP BY pr.name, pr.category
+  	ORDER BY quantity DESC
+    -- hint: JOIN fact_sales + dim_products, SUM(quantity), GROUP BY product name and category
+),
+ranked_products AS (
+    SELECT name, 
+  		category,
+  		quantity,
+  		RANK() OVER (PARTITION BY category ORDER BY quantity DESC) AS rank-- hint: RANK() OVER (PARTITION BY category ORDER BY total_units DESC)
+  	FROM units_per_product
+    
+)
+SELECT category, name, quantity
+FROM ranked_products
+WHERE rank = 1;
+
+
+SELECT pr.name , SUM(fa.total_amount) as revenue, da.date
+FROM fact_sales as fa 
+INNER JOIN dim_products as pr 
+on fa.product_id = pr.product_id
+INNER JOIN dim_date as da 
+ON fa.date_id = da.date_id
+WHERE date = '2024-01-15'
+GROUP BY pr.name, da.date
+ORDER BY revenue DESC;
