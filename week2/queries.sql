@@ -29,7 +29,7 @@ ORDER BY total_units DESC;
 SELECT SUM(fa.total_amount) as revenue, da.quarter
 FROM fact_sales as fa
 INNER JOIN dim_date as da
-ON da.date_id = fa.dat_id
+ON da.date_id = fa.date_id
 GROUP BY da.quarter
 ORDER BY revenue DESC;
 
@@ -55,7 +55,7 @@ WITH customer_revenue AS (
   	ORDER BY revenue DESC
 )
 SELECT name, country, revenue 
-FROM customer_revenue 
+FROM customer_revenue; 
 
 
 
@@ -66,13 +66,12 @@ WITH units_per_product AS (
   	ON pr.product_id = fa.product_id 
   	GROUP BY pr.name, pr.category
   	ORDER BY quantity DESC
-    -- hint: JOIN fact_sales + dim_products, SUM(quantity), GROUP BY product name and category
 ),
 ranked_products AS (
     SELECT name, 
   		category,
   		quantity,
-  		RANK() OVER (PARTITION BY category ORDER BY quantity DESC) AS rank-- hint: RANK() OVER (PARTITION BY category ORDER BY total_units DESC)
+  		RANK() OVER (PARTITION BY category ORDER BY quantity DESC) AS rank
   	FROM units_per_product
     
 )
