@@ -32,6 +32,7 @@ def count_by_category(records: list[dict]):
             results[category] = 1
     return results
 
+
 records = [
     {"name": "iPhone", "category": "Electronics"},
     {"name": "Samsung", "category": "Electronics"},

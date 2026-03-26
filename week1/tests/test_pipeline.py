@@ -1,5 +1,6 @@
 from week1.pipelines.pipeline_v4 import transform
 
+
 def test_transform_valid_records():
     # Step 1: create fake input (a list of dicts — just like SAMPLE_DATA)
     input_data = [{"id": 1, "name": "Alice", "sales": "4200", "date": "2024-01-15"}]
@@ -21,6 +22,7 @@ def test_transform_skips_bad_data():
     result = transform(input_data)
 
     assert len(result) == 0
+
 
 def test_transform_all_bad_data():
     input_data = [

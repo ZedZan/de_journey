@@ -24,6 +24,7 @@ def create_table(conn):
     conn.commit()
     logger.info("Table ready")
 
+
 def get_connection(config):
     return psycopg2.connect(
         host=config.DB_HOST,
@@ -33,11 +34,13 @@ def get_connection(config):
         password=config.DB_PASSWORD,
     )
 
+
 def extract(filepath: str) -> list[dict]:
     with open(filepath, newline="") as extractee:
         extracted = list(csv.DictReader(extractee, delimiter=","))
         logger.info(f"Extracted {len(extracted)}")
         return extracted
+
 
 def transform(records: list[dict]) -> list[dict]:
     transformed = []
@@ -100,6 +103,7 @@ def run_pipeline(config):
 
 if __name__ == "__main__":
     from week1.config import Config
+
     conn = get_connection(Config())
     create_table(conn)
     conn.close()

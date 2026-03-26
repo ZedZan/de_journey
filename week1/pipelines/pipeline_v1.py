@@ -13,10 +13,12 @@ SAMPLE_DATA = [
     {"id": 3, "name": "Carol", "sales": 5800, "date": "2024-01-16"},
 ]
 
+
 def extract(data: list[dict]) -> list[dict]:
     """Get raw data from the source."""
     logger.info(f"Extracting {len(data)} records")
     return data
+
 
 def transform(records: list[dict]) -> list[dict]:
     """Clean and enrich the data."""
@@ -33,10 +35,12 @@ def transform(records: list[dict]) -> list[dict]:
     logger.info(f"Transformed {len(transformed)} records")
     return transformed
 
+
 def load(records: list[dict]) -> None:
     """In a real pipeline this writes to a database."""
     for r in records:
         logger.info(f"Record ready: {r}")
+
 
 def run_pipeline():
     logger.info("=== Pipeline started ===")
@@ -44,6 +48,7 @@ def run_pipeline():
     cleaned = transform(raw)
     load(cleaned)
     logger.info("=== Pipeline finished ===")
+
 
 if __name__ == "__main__":
     run_pipeline()

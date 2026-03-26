@@ -20,6 +20,7 @@ SAMPLE_DATA = [
     {"id": 4, "name": "Dave", "sales": 5100, "date": "2024-01-16"},
 ]
 
+
 def create_table(conn):
     with conn.cursor() as cur:
         cur.execute("""
@@ -34,14 +35,17 @@ def create_table(conn):
     conn.commit()
     logger.info("Table ready")
 
+
 def get_connection():
     return psycopg2.connect(
         host="127.0.0.1", port=5433, dbname="dedb", user="deuser", password="pass123"
     )
 
+
 def extract(data: list[dict]) -> list[dict]:
     logger.info(f"Extracting {len(data)} records")
     return data
+
 
 def transform(records: list[dict]) -> list[dict]:
     transformed = []
@@ -96,6 +100,7 @@ def run_pipeline():
 
     load_with_retry(cleaned)
     logger.info("=== Pipeline finished ===")
+
 
 if __name__ == "__main__":
     run_pipeline()

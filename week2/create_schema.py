@@ -7,6 +7,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+
 def get_connection(config):
     return psycopg2.connect(
         host=config.DB_HOST,
@@ -15,6 +16,7 @@ def get_connection(config):
         user=config.DB_USER,
         password=config.DB_PASSWORD,
     )
+
 
 def create_table(conn):
     with conn.cursor() as cur:
@@ -58,6 +60,7 @@ def create_table(conn):
         """)
     conn.commit()
     logger.info("Table ready")
+
 
 if __name__ == "__main__":
     conn = get_connection(Config())

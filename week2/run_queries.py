@@ -2,10 +2,13 @@ import csv
 import logging
 import psycopg2
 from week1.config import Config
+
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
+
+
 def get_connection(config):
     return psycopg2.connect(
         host=config.DB_HOST,
@@ -14,6 +17,8 @@ def get_connection(config):
         user=config.DB_USER,
         password=config.DB_PASSWORD,
     )
+
+
 def run_queries(query, conn, filename):
     try:
         with conn.cursor() as cur:
@@ -27,6 +32,8 @@ def run_queries(query, conn, filename):
             logger.info(f"Saved {len(results)} rows to {filename}")
     except Exception as e:
         logger.warning(f"Error {e}")
+
+
 def run(config):
     conn = get_connection(config)
     run_queries(
@@ -68,5 +75,7 @@ FROM customer_revenue; """,
         "top_customers.csv",
     )
     conn.close()
+
+
 if __name__ == "__main__":
     run(Config())

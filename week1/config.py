@@ -2,6 +2,8 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv(encoding="utf-8")
+
+
 class Config:
     def __init__(self):
         self.DB_HOST = os.getenv("DB_HOST", "127.0.0.1")

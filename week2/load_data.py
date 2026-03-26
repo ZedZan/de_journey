@@ -9,6 +9,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+
 def get_connection(config):
     return psycopg2.connect(
         host=config.DB_HOST,
@@ -25,6 +26,7 @@ def extract(filepath: str) -> list[dict]:
         logger.info(f"Extracted  {len(extracted)}")
     return extracted
 
+
 def load_with_retry(records, conn, query, values_fn, retries=3, delay=2):
     for attempt in range(retries):
         try:
@@ -39,7 +41,10 @@ def load_with_retry(records, conn, query, values_fn, retries=3, delay=2):
             time.sleep(delay)
     raise Exception("all retries failed")
 
+
 BASE_DIR = Path(__file__).parent  # always points to week2/ folder
+
+
 def run(config):
     conn = get_connection(config)
     raw_products = extract("week2/data/dim_products.csv")
@@ -84,4 +89,5 @@ def run(config):
 
 if __name__ == "__main__":
     from week1.config import Config
+
     run(Config())
