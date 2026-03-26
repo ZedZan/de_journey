@@ -5,24 +5,23 @@ import time
 from pathlib import Path
 
 logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
 def get_connection(config):
     return psycopg2.connect(
-        host= config.DB_HOST,
-        port= config.DB_PORT,
-        dbname= config.DB_NAME,
-        user= config.DB_USER,
-        password= config.DB_PASSWORD
+        host=config.DB_HOST,
+        port=config.DB_PORT,
+        dbname=config.DB_NAME,
+        user=config.DB_USER,
+        password=config.DB_PASSWORD,
     )
 
 
-def extract(filepath :str) -> list[dict] :
-    with open(filepath, "r") as extractee :
-        extracted = list(csv.DictReader(extractee, delimiter=','))
+def extract(filepath: str) -> list[dict]:
+    with open(filepath, "r") as extractee:
+        extracted = list(csv.DictReader(extractee, delimiter=","))
         logger.info(f"Extracted  {len(extracted)}")
     return extracted
 
@@ -52,32 +51,37 @@ def run(config):
         raw_products,
         conn,
         "INSERT INTO dim_products VALUES (%s, %s, %s, %s)",
-        lambda r: (r["product_id"], r["name"], r["category"], r["price"])
-)
+        lambda r: (r["product_id"], r["name"], r["category"], r["price"]),
+    )
     load_with_retry(
         raw_customer,
         conn,
         "INSERT INTO dim_customer VALUES (%s, %s, %s, %s)",
-        lambda r: (r["customer_id"], r["name"], r["city"], r["country"])
+        lambda r: (r["customer_id"], r["name"], r["city"], r["country"]),
     )
-    
+
     load_with_retry(
         raw_date,
         conn,
         "INSERT INTO dim_date VALUES (%s, %s, %s, %s, %s)",
-        lambda r: (r["date_id"], r["date"], r["month"], r["year"], r["quarter"])
+        lambda r: (r["date_id"], r["date"], r["month"], r["year"], r["quarter"]),
     )
-    
+
     load_with_retry(
         raw_fact,
         conn,
         "INSERT INTO fact_sales VALUES (%s, %s, %s, %s, %s, %s)",
-        lambda r: (r["id"], r["date_id"], r["product_id"], r["customer_id"], r["quantity"], r["total_amount"])
+        lambda r: (
+            r["id"],
+            r["date_id"],
+            r["product_id"],
+            r["customer_id"],
+            r["quantity"],
+            r["total_amount"],
+        ),
     )
-
 
 
 if __name__ == "__main__":
     from week1.config import Config
     run(Config())
-

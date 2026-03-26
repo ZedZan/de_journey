@@ -1,20 +1,19 @@
 import logging
 import psycopg2
-
+from week1.config import Config
 
 logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
 def get_connection(config):
     return psycopg2.connect(
-        host= config.DB_HOST,
-        port= config.DB_PORT,
-        dbname= config.DB_NAME,
-        user= config.DB_USER,
-        password= config.DB_PASSWORD
+        host=config.DB_HOST,
+        port=config.DB_PORT,
+        dbname=config.DB_NAME,
+        user=config.DB_USER,
+        password=config.DB_PASSWORD,
     )
 
 def create_table(conn):
@@ -60,9 +59,7 @@ def create_table(conn):
     conn.commit()
     logger.info("Table ready")
 
-
 if __name__ == "__main__":
-    from week1.config import Config
     conn = get_connection(Config())
     create_table(conn)
     conn.close()

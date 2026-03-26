@@ -42,9 +42,6 @@ ON cus.customer_id = fa.customer_id
 GROUP BY cus.name
 ORDER BY revenue;
 
-
-
-
 WITH customer_revenue AS (
 	SELECT cus.name, cus.country, sum(fa.total_amount) AS revenue
   	FROM fact_sales AS fa 

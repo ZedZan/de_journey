@@ -1,30 +1,21 @@
 import logging
-import os
 import psycopg2  # replaces psycopg2
 from datetime import datetime
 
-
-
-
 logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
 SAMPLE_DATA = [
     {"id": 1, "name": "Alice", "sales": 4200, "date": "2024-01-15"},
-    {"id": 2, "name": "Bob",   "sales": 3100, "date": "2024-01-15"},
+    {"id": 2, "name": "Bob", "sales": 3100, "date": "2024-01-15"},
     {"id": 3, "name": "Carol", "sales": 5800, "date": "2024-01-16"},
 ]
 
 def get_connection():
     return psycopg2.connect(
-        host="127.0.0.1",
-        port=5433,
-        dbname="dedb",
-        user="deuser",
-        password="pass123"
+        host="127.0.0.1", port=5433, dbname="dedb", user="deuser", password="pass123"
     )
 def create_table(conn):
     with conn.cursor() as cur:
@@ -47,22 +38,27 @@ def extract(data: list[dict]) -> list[dict]:
 def transform(records: list[dict]) -> list[dict]:
     transformed = []
     for r in records:
-        transformed.append({
-            **r,
-            "sales": float(r["sales"]),
-            "date": datetime.strptime(r["date"], "%Y-%m-%d").date(),
-            "loaded_at": datetime.now()
-        })
+        transformed.append(
+            {
+                **r,
+                "sales": float(r["sales"]),
+                "date": datetime.strptime(r["date"], "%Y-%m-%d").date(),
+                "loaded_at": datetime.now(),
+            }
+        )
     logger.info(f"Transformed {len(transformed)} records")
     return transformed
 
 def load(records: list[dict], conn) -> None:
     with conn.cursor() as cur:
         for r in records:
-            cur.execute("""
+            cur.execute(
+                """
                 INSERT INTO sales (id, name, sales, date, loaded_at)
                 VALUES (%s, %s, %s, %s, %s)
-            """, (r["id"], r["name"], r["sales"], r["date"], r["loaded_at"]))
+            """,
+                (r["id"], r["name"], r["sales"], r["date"], r["loaded_at"]),
+            )
     conn.commit()
     logger.info(f"Loaded {len(records)} records into database")
 def run_pipeline():
@@ -71,7 +67,7 @@ def run_pipeline():
 
     try:
         create_table(conn)
-        raw     = extract(SAMPLE_DATA)
+        raw = extract(SAMPLE_DATA)
         cleaned = transform(raw)
         load(cleaned, conn)
         logger.info("=== Pipeline finished ===")
