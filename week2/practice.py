@@ -22,21 +22,42 @@
 # print(calculate_stats([10, 20, 30, 40]))
 
 
-def count_by_category(records: list[dict]):
-    results = {}
-    for r in records:
-        category = r["category"]
-        if category in results:
-            results[category] += 1
-        else:
-            results[category] = 1
-    return results
+# def count_by_category(records: list[dict]):
+#     results = {}
+#     for r in records:
+#         category = r["category"]
+#         if category in results:
+#             results[category] += 1
+#         else:
+#             results[category] = 1
+#     return results
 
 
-records = [
-    {"name": "iPhone", "category": "Electronics"},
-    {"name": "Samsung", "category": "Electronics"},
-    {"name": "Nike", "category": "Clothing"},
-]
-print(count_by_category(records))
-# → {"Electronics": 2, "Clothing": 1}
+# records = [
+#     {"name": "iPhone", "category": "Electronics"},
+#     {"name": "Samsung", "category": "Electronics"},
+#     {"name": "Nike", "category": "Clothing"},
+# ]
+# print(count_by_category(records))
+# # → {"Electronics": 2, "Clothing": 1}
+
+
+def is_even(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+
+
+def sum_list(numbers):
+    no = 0
+    for n in numbers:
+        no += n
+    return no
+
+
+def reverse_string(s):
+    reverse = []
+    for r in s:
+        reverse.insert(0, r)
+    return "".join(reverse)
