@@ -42,22 +42,46 @@
 # # → {"Electronics": 2, "Clothing": 1}
 
 
-def is_even(n):
-    if n % 2 == 0:
-        return True
-    else:
-        return False
+# def is_even(n):
+#     if n % 2 == 0:
+#         return True
+#     else:
+#         return False
 
 
-def sum_list(numbers):
-    no = 0
-    for n in numbers:
-        no += n
-    return no
+# def sum_list(numbers):
+#     no = 0
+#     for n in numbers:
+#         no += n
+#     return no
 
 
-def reverse_string(s):
-    reverse = []
-    for r in s:
-        reverse.insert(0, r)
-    return "".join(reverse)
+# def reverse_string(s):
+#     reverse = []
+#     for r in s:
+#         reverse.insert(0, r)
+#     return "".join(reverse)
+
+# def count_vowels(s):
+#     vowels =["a", "e", "i", "o" , "u"]
+#     counting = 0
+#     for r in s:
+#         if r in vowels:
+#             counting += 1
+#     return counting
+
+# def flattten(nested):
+#     flattened = []
+#     for outer_list in nested :
+#         for inner_list in outer_list:
+#              flattened.append(inner_list)
+#     return flattened
+
+# def most_frequent(lst):
+#     counting = {}
+#     for l in lst:
+#         if l in counting:
+#             counting[l] +=1
+#         else:
+#             counting[l] = 1
+#     return max(counting, key=counting.get)

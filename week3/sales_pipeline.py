@@ -2,7 +2,7 @@ import csv
 import logging
 from week3.base_pipeline import BasePipeline
 from datetime import datetime
-from week1.config import Config
+from week3.config import Config
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
