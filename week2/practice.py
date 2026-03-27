@@ -85,3 +85,24 @@
 #         else:
 #             counting[l] = 1
 #     return max(counting, key=counting.get)
+
+
+# def celsius_to_fahrenheit(c):
+#     return (c * 9/5) +32
+
+# def remove_duplicates(lst):
+#     dup = []
+#     for l in lst:
+#         if l not in dup :
+#             dup.append(l)
+#     return dup
+
+# def word_count(sentence):
+#     counting ={}
+#     split_sentence = sentence.split()
+#     for r in split_sentence:
+#         if r in counting:
+#             counting[r] +=1
+#         else :
+#             counting[r] = 1
+#     return counting
