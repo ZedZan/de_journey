@@ -106,3 +106,29 @@
 #         else :
 #             counting[r] = 1
 #     return counting
+
+
+# def is_palindrome(s) :
+#     reversed = s[::-1]
+#     if s == reversed:
+#         return True
+#     else:
+#         return False
+
+
+# def get_evens(numbers):
+#     even =[]
+#     for i in numbers:
+#         if i %2 == 0:
+#             even.append(i)
+#     return even
+
+# def merge_dicts(d1, d2) :
+#     merged = {}
+#     merged = d1.copy()
+#     for key, value in d2.items():
+#         if key in merged:
+#             merged[key] = merged.get(key, 0) +value
+#         else:
+#             merged[key] = value
+#     return merged
