@@ -132,3 +132,20 @@
 #         else:
 #             merged[key] = value
 #     return merged
+
+# def capitalize_words(sentence):
+#     return " ".join(w.capitalize() for w in sentence.split())
+
+
+# def safe_divide(a, b):
+#     if b == 0:
+#         return 0
+#     else:
+#         return a/b
+
+
+# def chunk_list(lst, size) :
+#     chunk = []
+#     for l in range(0, len(lst), size):
+#         chunk.append(lst[l:l+size])
+#     return chunk

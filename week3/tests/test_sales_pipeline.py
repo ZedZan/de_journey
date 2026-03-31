@@ -1,4 +1,4 @@
-from unittest.mock import MagicMock, patch
+from unittest.mock import MagicMock
 from week3.sales_pipeline import SalesPipeline
 from week3.config import Config
 import tempfile
