@@ -55,27 +55,27 @@ def run(config):
     load_with_retry(
         raw_products,
         conn,
-        "INSERT INTO dim_products VALUES (%s, %s, %s, %s)",
+        "INSERT INTO dim_products VALUES (%s, %s, %s, %s) ON CONFLICT DO NOTHING",
         lambda r: (r["product_id"], r["name"], r["category"], r["price"]),
     )
     load_with_retry(
         raw_customer,
         conn,
-        "INSERT INTO dim_customer VALUES (%s, %s, %s, %s)",
+        "INSERT INTO dim_customer VALUES (%s, %s, %s, %s) ON CONFLICT DO NOTHING",
         lambda r: (r["customer_id"], r["name"], r["city"], r["country"]),
     )
 
     load_with_retry(
         raw_date,
         conn,
-        "INSERT INTO dim_date VALUES (%s, %s, %s, %s, %s)",
+        "INSERT INTO dim_date VALUES (%s, %s, %s, %s, %s) ON CONFLICT DO NOTHING",
         lambda r: (r["date_id"], r["date"], r["month"], r["year"], r["quarter"]),
     )
 
     load_with_retry(
         raw_fact,
         conn,
-        "INSERT INTO fact_sales VALUES (%s, %s, %s, %s, %s, %s)",
+        "INSERT INTO fact_sales VALUES (%s, %s, %s, %s, %s, %s) ON CONFLICT DO NOTHING",
         lambda r: (
             r["id"],
             r["date_id"],

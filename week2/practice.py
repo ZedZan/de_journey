@@ -149,3 +149,25 @@
 #     for l in range(0, len(lst), size):
 #         chunk.append(lst[l:l+size])
 #     return chunk
+
+
+# def sum_digits(n) :
+#     s= str(n)
+#     l = 0
+#     for i in range(len(s)):
+#         l += int(s[i])
+#     return l
+
+# def filter_above(numbers, threshold):
+#     filtred = []
+#     for i in range(len(numbers)) :
+#         if numbers[i] > threshold:
+#             filtred.append(numbers[i])
+#     return filtred
+
+
+# def zip_dicts(key, values):
+#     ziped = {}
+#     for i in range(len(key)):
+#         ziped[key[i]] = values[i]
+#     return ziped
