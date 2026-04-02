@@ -171,3 +171,43 @@
 #     for i in range(len(key)):
 #         ziped[key[i]] = values[i]
 #     return ziped
+# from math import sqrt
+# def is_prime(n) :
+#     if n <= 1:
+#         return False
+#     elif n<=3 :
+#         return True
+#     elif n%2 ==0  or n%3 == 0:
+#         return False
+
+#     i= 2
+#     while i<= sqrt(n):
+#         if n%i == 0:
+#             return False
+#         i +=1
+    
+#     return True
+
+
+# def flatten_dict(d):
+#     flat ={}
+#     for key, value in d.items():
+#         if isinstance(value, dict):
+#             for inner_key, inner_value in value.items():
+#                 flat[inner_key] = inner_value
+#         else:
+#             flat[key] = value
+
+
+#     return flat
+
+# def running_average(numbers):
+#     lst = []
+#     runnig_sum = 0
+#     count = 0
+#     for i in numbers:
+#         runnig_sum += i
+#         count +=1
+#         average = runnig_sum / count
+#         lst.append(average)
+#     return lst

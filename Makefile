@@ -1,10 +1,11 @@
+ENV ?= dev
 .PHONY: up down run test format setup
 
 up:
-	docker-compose up -d 
+	docker-compose --env-file .env.$(ENV) up -d
 
 down:
-	docker-compose down
+	docker-compose --env-file .env.$(ENV) down
 
 run:
 	PYTHONPATH=. python week3/sales_pipeline.py
