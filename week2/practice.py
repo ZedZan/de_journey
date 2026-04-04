@@ -185,7 +185,7 @@
 #         if n%i == 0:
 #             return False
 #         i +=1
-
+    
 #     return True
 
 
@@ -211,3 +211,34 @@
 #         average = runnig_sum / count
 #         lst.append(average)
 #     return lst
+
+# def clamp(n, min_val, max_val):
+#     if n < min_val:
+#         n= min_val
+#     if n> max_val:
+#         n= max_val
+#     return n
+
+# def unique_chars(s):
+#     u = set()
+#     for i in s:
+#         u.add(i)
+#     return len(u)
+
+# def rotate_list(lst, n):
+#     if not lst:
+#         return lst
+
+#     n = n % len(lst)   # normalize n
+#     return lst[-n:] + lst[:-n]
+class Loged_block:
+    def __init__(self, name):
+        self.name = name
+    
+    def __enter__(self):
+        with open("context.log", "a") as f:
+            f.write(f"Entering {self.name}\n")
+        return self
+    def __exit__(self, exc_type, exc, tb):
+        with open("context.log", "a") as f:
+            f.write(f"Exiting {self.name}\n")

@@ -1,0 +1,6 @@
+date,product,quantity,revenue
+2026-04-01,Widget A,10,250.0
+2026-04-01,Widget B,5,125.0
+2026-04-02,Widget A,8,200.0
+2026-04-02,Widget C,3,90.0
+2026-04-03,Widget B,12,300.0
