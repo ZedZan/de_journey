@@ -231,14 +231,27 @@
 
 #     n = n % len(lst)   # normalize n
 #     return lst[-n:] + lst[:-n]
-class Loged_block:
-    def __init__(self, name):
-        self.name = name
+# from datetime import datetime
+# class Loggedblock:
+#     def __init__(self, name):
+#         self.name = name
     
-    def __enter__(self):
-        with open("context.log", "a") as f:
-            f.write(f"Entering {self.name}\n")
-        return self
-    def __exit__(self, exc_type, exc, tb):
-        with open("context.log", "a") as f:
-            f.write(f"Exiting {self.name}\n")
+#     def __enter__(self):
+#         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+#         with open("context.log", "a") as f:
+#             f.write(f"[ENTER] {self.name} - {timestamp} \n")
+#         return self
+#     def __exit__(self, exc_type, exc, tb):
+#         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+#         with open("context.log", "a") as f:
+#             f.write(f"[EXIT] {self.name} - {timestamp} \n")
+#         return False
+
+# def group_by(data, key):
+#     result = {}
+#     for item in data:
+#         group_value =  item[key]
+#         if group_value not in result :
+#             result[group_value] = []
+#         result[group_value].append(item)
+#     return result
