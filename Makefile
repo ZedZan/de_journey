@@ -21,3 +21,5 @@ setup:
 	PYTHONPATH=. python week2/create_schema.py
 	PYTHONPATH=. python week2/load_data.py
 
+cloud:
+	PYTHONPATH=. python week5/cloud_sink.py
