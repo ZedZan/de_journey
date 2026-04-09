@@ -278,3 +278,14 @@
 #         return wrapper
 #     return decorator 
 
+
+# import time
+
+# def retry(func, max_attempts, delay):
+#     for attempt in range(max_attempts):
+#         try:
+#             return func()
+#         except Exception:
+#             if attempt == max_attempts-1:
+#                 raise
+#             time.sleep(delay)

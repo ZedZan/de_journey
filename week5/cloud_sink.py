@@ -28,7 +28,8 @@ class CloudSink :
         job_config = bigquery.LoadJobConfig(
             autodetect= True,
             source_format= bigquery.SourceFormat.CSV,
-            skip_leading_rows=1
+            skip_leading_rows=1,
+            write_disposition = bigquery.WriteDisposition.WRITE_TRUNCATE
         )
         gcs_uri = f"gs://{self.bucket_name}/{blob_name}"
         table_ref = f"{self.project}.{self.dataset_id}.{self.table_id}"
