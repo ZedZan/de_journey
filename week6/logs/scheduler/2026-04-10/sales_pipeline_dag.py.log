@@ -1,0 +1,412 @@
+[2026-04-10T17:38:13.514+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:38:13.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:38:13.525+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:38:13.524+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:38:13.814+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:38:13.796+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+ModuleNotFoundError: No module named 'week3'
+[2026-04-10T17:38:13.818+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:38:14.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.546 seconds
+[2026-04-10T17:38:44.708+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:38:44.716+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:38:44.719+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:38:44.719+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:38:44.805+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:38:44.789+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+ModuleNotFoundError: No module named 'week3'
+[2026-04-10T17:38:44.807+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:38:44.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.237 seconds
+[2026-04-10T17:39:15.391+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:39:15.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:39:15.400+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:39:15.399+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:39:15.479+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:39:15.460+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+ModuleNotFoundError: No module named 'week3'
+[2026-04-10T17:39:15.483+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:39:15.589+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.210 seconds
+[2026-04-10T17:39:45.935+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:39:45.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:39:45.945+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:39:45.944+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:39:46.015+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:39:46.004+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+ModuleNotFoundError: No module named 'week3'
+[2026-04-10T17:39:46.023+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:39:46.104+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.179 seconds
+[2026-04-10T17:40:16.444+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:40:16.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:40:16.453+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:40:16.452+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:40:16.523+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:40:16.512+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+ModuleNotFoundError: No module named 'week3'
+[2026-04-10T17:40:16.526+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:40:16.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.338 seconds
+[2026-04-10T17:40:47.023+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:40:47.026+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:40:47.036+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:40:47.036+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:40:47.127+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:40:47.115+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+ModuleNotFoundError: No module named 'week3'
+[2026-04-10T17:40:47.134+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:40:47.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.219 seconds
+[2026-04-10T17:41:14.885+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:41:14.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:41:14.896+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:41:14.895+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:41:15.036+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:41:15.024+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+ModuleNotFoundError: No module named 'week3'
+[2026-04-10T17:41:15.045+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:41:15.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.450 seconds
+[2026-04-10T17:41:46.149+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:41:46.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:41:46.174+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:41:46.168+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:41:46.376+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:41:46.298+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+ModuleNotFoundError: No module named 'week3'
+[2026-04-10T17:41:46.426+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:41:46.827+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.692 seconds
+[2026-04-10T17:42:17.253+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:42:17.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:42:17.263+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:42:17.262+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:42:17.362+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:42:17.335+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+ModuleNotFoundError: No module named 'week3'
+[2026-04-10T17:42:17.365+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:42:17.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.298 seconds
+[2026-04-10T17:42:47.944+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:42:47.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:42:47.955+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:42:47.954+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:42:48.024+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:42:48.012+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+ModuleNotFoundError: No module named 'week3'
+[2026-04-10T17:42:48.032+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:42:48.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.199 seconds
+[2026-04-10T17:43:18.446+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:43:18.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:43:18.455+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:43:18.455+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:43:18.514+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:43:18.503+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+ModuleNotFoundError: No module named 'week3'
+[2026-04-10T17:43:18.516+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:43:18.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.177 seconds
+[2026-04-10T17:43:48.923+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:43:48.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:43:48.932+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:43:48.926+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:43:48.994+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:43:48.982+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+ModuleNotFoundError: No module named 'week3'
+[2026-04-10T17:43:49.002+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:43:49.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.217 seconds
+[2026-04-10T17:44:19.772+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:44:19.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:44:19.800+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:44:19.799+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:44:19.922+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:44:19.893+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+ModuleNotFoundError: No module named 'week3'
+[2026-04-10T17:44:19.932+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:44:20.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.308 seconds
+[2026-04-10T17:44:50.782+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:44:50.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:44:50.864+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:44:50.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:44:51.225+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:44:51.113+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+ModuleNotFoundError: No module named 'week3'
+[2026-04-10T17:44:51.291+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:44:51.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.967 seconds
+[2026-04-10T17:48:24.009+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:48:24.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:48:24.026+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:48:24.019+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:48:25.406+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:48:25.269+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+  File "/opt/airflow/project/week3/sales_pipeline.py", line 5, in <module>
+    from week3.config import Config
+  File "/opt/airflow/project/week3/config.py", line 1, in <module>
+    from pydantic_settings import BaseSettings
+ModuleNotFoundError: No module named 'pydantic_settings'
+[2026-04-10T17:48:25.476+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:48:25.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.798 seconds
+[2026-04-10T17:49:58.311+0000] {processor.py:161} INFO - Started process (PID=167) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:49:58.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:49:58.321+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:49:58.320+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:49:58.631+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:49:58.571+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+  File "/opt/airflow/project/week3/sales_pipeline.py", line 5, in <module>
+    from week3.config import Config
+  File "/opt/airflow/project/week3/config.py", line 1, in <module>
+    from pydantic_settings import BaseSettings
+ModuleNotFoundError: No module named 'pydantic_settings'
+[2026-04-10T17:49:58.652+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:49:58.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.472 seconds
+[2026-04-10T17:50:29.118+0000] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:50:29.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:50:29.137+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:50:29.130+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:50:29.450+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:50:29.348+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+  File "/opt/airflow/project/week3/sales_pipeline.py", line 5, in <module>
+    from week3.config import Config
+  File "/opt/airflow/project/week3/config.py", line 1, in <module>
+    from pydantic_settings import BaseSettings
+ModuleNotFoundError: No module named 'pydantic_settings'
+[2026-04-10T17:50:29.481+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:50:29.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.568 seconds
+[2026-04-10T17:51:00.080+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:51:00.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:51:00.093+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:51:00.092+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:51:00.463+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:51:00.392+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+  File "/opt/airflow/project/week3/sales_pipeline.py", line 5, in <module>
+    from week3.config import Config
+  File "/opt/airflow/project/week3/config.py", line 1, in <module>
+    from pydantic_settings import BaseSettings
+ModuleNotFoundError: No module named 'pydantic_settings'
+[2026-04-10T17:51:00.481+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:51:00.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.607 seconds
+[2026-04-10T17:51:31.223+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:51:31.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:51:31.234+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:51:31.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:51:31.503+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:51:31.445+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+  File "/opt/airflow/project/week3/sales_pipeline.py", line 5, in <module>
+    from week3.config import Config
+  File "/opt/airflow/project/week3/config.py", line 1, in <module>
+    from pydantic_settings import BaseSettings
+ModuleNotFoundError: No module named 'pydantic_settings'
+[2026-04-10T17:51:31.516+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:51:31.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.471 seconds
+[2026-04-10T17:52:02.374+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:52:02.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:52:02.384+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:52:02.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:52:02.796+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:52:02.707+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+  File "/opt/airflow/project/week3/sales_pipeline.py", line 5, in <module>
+    from week3.config import Config
+  File "/opt/airflow/project/week3/config.py", line 1, in <module>
+    from pydantic_settings import BaseSettings
+ModuleNotFoundError: No module named 'pydantic_settings'
+[2026-04-10T17:52:02.836+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:52:03.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.698 seconds
+[2026-04-10T17:52:34.096+0000] {processor.py:161} INFO - Started process (PID=192) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:52:34.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:52:34.109+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:52:34.108+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:52:34.477+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:52:34.398+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+  File "/opt/airflow/project/week3/sales_pipeline.py", line 5, in <module>
+    from week3.config import Config
+  File "/opt/airflow/project/week3/config.py", line 1, in <module>
+    from pydantic_settings import BaseSettings
+ModuleNotFoundError: No module named 'pydantic_settings'
+[2026-04-10T17:52:34.497+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:52:34.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.570 seconds
+[2026-04-10T17:53:05.760+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:53:05.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:53:05.779+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:53:05.778+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:53:06.260+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:53:06.131+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+  File "/opt/airflow/project/week3/sales_pipeline.py", line 5, in <module>
+    from week3.config import Config
+  File "/opt/airflow/project/week3/config.py", line 1, in <module>
+    from pydantic_settings import BaseSettings
+ModuleNotFoundError: No module named 'pydantic_settings'
+[2026-04-10T17:53:06.299+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:53:06.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.822 seconds
+[2026-04-10T17:55:23.892+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:55:23.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:55:23.903+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:55:23.902+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:55:24.203+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:55:24.152+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+  File "/opt/airflow/project/week3/sales_pipeline.py", line 5, in <module>
+    from week3.config import Config
+  File "/opt/airflow/project/week3/config.py", line 1, in <module>
+    from pydantic_settings import BaseSettings
+ModuleNotFoundError: No module named 'pydantic_settings'
+[2026-04-10T17:55:24.222+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:55:24.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.541 seconds
+[2026-04-10T17:55:54.932+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:55:54.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:55:54.943+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:55:54.942+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:55:55.172+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:55:55.113+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+  File "/opt/airflow/project/week3/sales_pipeline.py", line 5, in <module>
+    from week3.config import Config
+  File "/opt/airflow/project/week3/config.py", line 1, in <module>
+    from pydantic_settings import BaseSettings
+ModuleNotFoundError: No module named 'pydantic_settings'
+[2026-04-10T17:55:55.192+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:55:56.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.471 seconds
+[2026-04-10T17:56:27.138+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:56:27.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:56:27.157+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:56:27.156+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:56:27.699+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:56:27.607+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+  File "/opt/airflow/project/week3/sales_pipeline.py", line 5, in <module>
+    from week3.config import Config
+  File "/opt/airflow/project/week3/config.py", line 1, in <module>
+    from pydantic_settings import BaseSettings
+ModuleNotFoundError: No module named 'pydantic_settings'
+[2026-04-10T17:56:27.719+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:56:27.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.748 seconds
+[2026-04-10T17:56:58.792+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:56:58.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-10T17:56:58.802+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:56:58.802+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:56:59.080+0000] {logging_mixin.py:188} INFO - [2026-04-10T17:56:59.022+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sales_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_pipeline_dag.py", line 4, in <module>
+    from week3.sales_pipeline import SalesPipeline
+  File "/opt/airflow/project/week3/sales_pipeline.py", line 5, in <module>
+    from week3.config import Config
+  File "/opt/airflow/project/week3/config.py", line 1, in <module>
+    from pydantic_settings import BaseSettings
+ModuleNotFoundError: No module named 'pydantic_settings'
+[2026-04-10T17:56:59.093+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-10T17:56:59.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 0.470 seconds
