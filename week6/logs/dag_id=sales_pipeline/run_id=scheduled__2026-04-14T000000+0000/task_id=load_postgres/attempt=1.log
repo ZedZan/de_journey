@@ -1,0 +1,16 @@
+[2026-04-15T18:04:23.377+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_pipeline.load_postgres scheduled__2026-04-14T00:00:00+00:00 [queued]>
+[2026-04-15T18:04:23.423+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_pipeline.load_postgres scheduled__2026-04-14T00:00:00+00:00 [queued]>
+[2026-04-15T18:04:23.425+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-04-15T18:04:23.576+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load_postgres> on 2026-04-14 00:00:00+00:00
+[2026-04-15T18:04:23.601+0000] {standard_task_runner.py:60} INFO - Started process 2561 to run task
+[2026-04-15T18:04:23.608+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'sales_pipeline', 'load_postgres', 'scheduled__2026-04-14T00:00:00+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/sales_pipeline_dag.py', '--cfg-path', '/tmp/tmpavltjtic']
+[2026-04-15T18:04:23.615+0000] {standard_task_runner.py:88} INFO - Job 23: Subtask load_postgres
+[2026-04-15T18:04:23.866+0000] {task_command.py:423} INFO - Running <TaskInstance: sales_pipeline.load_postgres scheduled__2026-04-14T00:00:00+00:00 [running]> on host 9c7376dc4485
+[2026-04-15T18:04:24.474+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sales_pipeline' AIRFLOW_CTX_TASK_ID='load_postgres' AIRFLOW_CTX_EXECUTION_DATE='2026-04-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-14T00:00:00+00:00'
+[2026-04-15T18:04:24.521+0000] {sales_pipeline.py:34} INFO - Extracted5
+[2026-04-15T18:04:24.530+0000] {sales_pipeline.py:51} WARNING - Skipping record Carol - invalid sales value: bad_value
+[2026-04-15T18:04:24.617+0000] {base_pipeline.py:28} INFO - Connection closed
+[2026-04-15T18:04:24.619+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-04-15T18:04:24.654+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=sales_pipeline, task_id=load_postgres, execution_date=20260414T000000, start_date=20260415T180423, end_date=20260415T180424
+[2026-04-15T18:04:24.895+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-15T18:04:24.987+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

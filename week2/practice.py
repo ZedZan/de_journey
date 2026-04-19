@@ -289,3 +289,56 @@
 #             if attempt == max_attempts-1:
 #                 raise
 #             time.sleep(delay)
+
+# def flatten(nested):
+#     flat = []
+#     for item in nested :
+#         if isinstance(item, list):
+#             for inner_item in item:
+#                 flat.append(inner_item)
+#         else:
+#             flat.append(item)
+
+# def merge_dicts(base, override):
+#     merged = base.copy()
+#     merged.update(override)
+#     return merged
+
+# def filtred(records):
+#     filtre = {}
+#     for r in records :
+#         if r["name"] != None and r["sales"] != None:
+#             filtre[r["name"]] = filtre.get(r["name"], 0) + r["sales"]
+#     return filtre
+
+
+
+# def sales(records):
+#     result = {}
+#     for r in records :
+#         if r["amount"] != None:
+#             customer = r["customer"]
+#             month = r["month"]
+#             amount = r["amount"]
+#             if customer not in result:
+#                 result[customer] = {}
+#             if month not in result[customer]:
+#                 result[customer][month] = 0.0
+#             result[customer][month] += amount
+#     return result
+
+# def validated(records, required_fields):
+#     result = {"valid": [], "invalid" : []}
+#     for r in records:
+#         missing = []
+#         for field in required_fields:
+#             if r.get(field) is None:
+#                 missing.append(field)
+        
+#         if missing:
+#             bad = r.copy()
+#             bad["missing_fields"] = missing
+#             result["invalid"].append(bad)
+#         else:
+#             result["valid"].append(r)
+#     return result

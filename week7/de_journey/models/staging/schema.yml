@@ -1,0 +1,29 @@
+version : 2
+
+models: 
+  - name: stg_sales
+    description: "sales Table"
+
+    columns:
+      - name : sale_id
+        description : "Primary key for the sale"
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_name
+        description : "the customer name "
+        tests :
+          - not_null
+      
+      - name : sale_amount
+        description : "the amount per sale"
+        tests : 
+          - not_null
+      
+      - name: sale_date
+        description : "the date when sales done "
+        tests : 
+          - not_null
+      
+  

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: de_journey_dw
+    database: de-journey-492321
+    schema: de_journey_dw
+    tables:
+      - name: sales

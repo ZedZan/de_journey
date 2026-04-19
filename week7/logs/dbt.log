@@ -1,0 +1,91 @@
+[0m20:59:46.987608 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB4C251E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB4CEC0910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB4D10B390>]}
+
+
+============================== 20:59:46.996129 | a502c30f-686a-4de1-b99f-a4f97f53274c ==============================
+[0m20:59:46.996129 [info ] [MainThread]: Running with dbt=1.11.8
+[0m20:59:46.999121 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Ziyad\\.dbt', 'invocation_command': 'dbt init de_journey', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:59:47.046875 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Ziyad\.dbt
+[0m20:59:47.051855 [debug] [MainThread]: Starter project path: C:\Users\Ziyad\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m20:59:47.168239 [info ] [MainThread]: 
+Your new dbt project "de_journey" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:59:47.170341 [info ] [MainThread]: Setting up your profile.
+[0m22:55:16.909621 [info ] [MainThread]: Profile de_journey written to C:\Users\Ziyad\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:55:16.916817 [debug] [MainThread]: Command `dbt init` succeeded at 22:55:16.915807 after 93343.23 seconds
+[0m22:55:16.920056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB4CEC0790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB5F449390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB4656C390>]}
+[0m22:55:16.922747 [debug] [MainThread]: Flushing usage events
+[0m22:55:18.380548 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:55:58.072770 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021B63CF1C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021B639A69D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021B62CEE890>]}
+
+
+============================== 22:55:58.094835 | 92e994e6-ebef-424c-9248-c0932cffb0d6 ==============================
+[0m22:55:58.094835 [info ] [MainThread]: Running with dbt=1.11.8
+[0m22:55:58.097851 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Ziyad\\.dbt', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m22:55:58.208244 [info ] [MainThread]: dbt version: 1.11.8
+[0m22:55:58.211255 [info ] [MainThread]: python version: 3.11.9
+[0m22:55:58.213246 [info ] [MainThread]: python path: C:\Users\Ziyad\AppData\Local\Programs\Python\Python311\python.exe
+[0m22:55:58.214247 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m22:56:17.495903 [info ] [MainThread]: Using profiles dir at C:\Users\Ziyad\.dbt
+[0m22:56:17.498563 [info ] [MainThread]: Using profiles.yml file at C:\Users\Ziyad\.dbt\profiles.yml
+[0m22:56:17.500559 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Ziyad\OneDrive\Desktop\de-journey\week7\dbt_project.yml
+[0m22:56:17.502559 [info ] [MainThread]: adapter type: bigquery
+[0m22:56:17.505576 [info ] [MainThread]: adapter version: 1.11.1
+[0m22:56:17.507578 [info ] [MainThread]: Configuration:
+[0m22:56:17.510558 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:56:17.512558 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:56:17.514242 [info ] [MainThread]: Required dependencies:
+[0m22:56:17.516234 [debug] [MainThread]: Executing "git --help"
+[0m22:56:17.573209 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:56:17.575453 [debug] [MainThread]: STDERR: "b''"
+[0m22:56:17.577010 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:56:17.580450 [info ] [MainThread]: Connection:
+[0m22:56:17.583006 [info ] [MainThread]:   method: service-account
+[0m22:56:17.585015 [info ] [MainThread]:   database: de-journey-492321
+[0m22:56:17.588000 [info ] [MainThread]:   execution_project: de-journey-492321
+[0m22:56:17.590030 [info ] [MainThread]:   schema: de_journey_dw
+[0m22:56:17.592992 [info ] [MainThread]:   location: EU
+[0m22:56:17.594989 [info ] [MainThread]:   priority: interactive
+[0m22:56:17.596976 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m22:56:17.597993 [info ] [MainThread]:   impersonate_service_account: None
+[0m22:56:17.599989 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m22:56:17.601991 [info ] [MainThread]:   job_retries: 1
+[0m22:56:17.603978 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m22:56:17.607244 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m22:56:17.609829 [info ] [MainThread]:   timeout_seconds: 300
+[0m22:56:17.612802 [info ] [MainThread]:   client_id: None
+[0m22:56:17.614845 [info ] [MainThread]:   token_uri: None
+[0m22:56:17.616802 [info ] [MainThread]:   compute_region: None
+[0m22:56:17.618804 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m22:56:17.621777 [info ] [MainThread]:   gcs_bucket: None
+[0m22:56:17.624363 [info ] [MainThread]:   dataproc_batch: None
+[0m22:56:17.627337 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m22:56:19.126457 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m22:56:19.128458 [debug] [MainThread]: On debug: select 1 as id
+[0m22:56:19.129437 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:56:23.747164 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=de-journey-492321&j=bq:EU:77cbdba7-cf60-4701-88d8-d146a96a6a32&page=queryresults
+[0m22:56:23.946830 [debug] [MainThread]: SQL status: OK in 0.198 seconds
+[0m22:56:32.353284 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m22:56:32.355384 [info ] [MainThread]: [31m1 check failed:[0m
+[0m22:56:32.358427 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Ziyad\OneDrive\Desktop\de-journey\week7\dbt_project.yml> not found
+
+[0m22:56:32.363178 [debug] [MainThread]: Command `dbt debug` failed at 22:56:32.362153 after 34.63 seconds
+[0m22:56:32.364176 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:56:32.366160 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021B5D265550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021B63CF1C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021B63CEAD90>]}
+[0m22:56:32.368180 [debug] [MainThread]: Flushing usage events
+[0m22:56:33.621901 [debug] [MainThread]: An error was encountered while trying to flush usage events

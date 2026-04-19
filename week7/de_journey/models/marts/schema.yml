@@ -1,0 +1,25 @@
+version : 2
+
+models: 
+  - name: mart_sales_summary
+    description: "mart_sales Table"
+
+    columns:
+      - name : customer_name
+        description : "the name of the customer"
+        tests:
+          - not_null
+          - unique
+
+      - name: total_amount
+        description : "sale amount per customer "
+        tests :
+          - not_null
+      
+      - name : sum_transactions
+        description : "the total transactions "
+        tests : 
+          - not_null
+      
+
+  
