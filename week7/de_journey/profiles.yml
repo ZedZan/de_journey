@@ -1,0 +1,14 @@
+de_journey:
+  outputs:
+    dev:
+      dataset: de_journey_dw
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: /opt/airflow/project/gcp-key.json
+      location: EU
+      method: service-account
+      priority: interactive
+      project: de-journey-492321
+      threads: 4
+      type: bigquery
+  target: dev

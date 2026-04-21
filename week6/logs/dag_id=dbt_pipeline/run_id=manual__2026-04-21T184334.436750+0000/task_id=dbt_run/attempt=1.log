@@ -1,0 +1,38 @@
+[2026-04-21T18:43:35.583+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_run manual__2026-04-21T18:43:34.436750+00:00 [queued]>
+[2026-04-21T18:43:35.606+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_run manual__2026-04-21T18:43:34.436750+00:00 [queued]>
+[2026-04-21T18:43:35.606+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-04-21T18:43:35.791+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_run> on 2026-04-21 18:43:34.436750+00:00
+[2026-04-21T18:43:35.798+0000] {standard_task_runner.py:60} INFO - Started process 510 to run task
+[2026-04-21T18:43:35.803+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dbt_pipeline', 'dbt_run', 'manual__2026-04-21T18:43:34.436750+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/dbt_pipeline_dag.py', '--cfg-path', '/tmp/tmpfqdzai8_']
+[2026-04-21T18:43:35.807+0000] {standard_task_runner.py:88} INFO - Job 27: Subtask dbt_run
+[2026-04-21T18:43:36.203+0000] {task_command.py:423} INFO - Running <TaskInstance: dbt_pipeline.dbt_run manual__2026-04-21T18:43:34.436750+00:00 [running]> on host 1c7f92b4483e
+[2026-04-21T18:43:36.610+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_pipeline' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2026-04-21T18:43:34.436750+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-21T18:43:34.436750+00:00'
+[2026-04-21T18:43:36.614+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-21T18:43:36.617+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/project/week7/de_journey && dbt run --profiles-dir /opt/***/project/week7/de_journey']
+[2026-04-21T18:43:36.647+0000] {subprocess.py:86} INFO - Output:
+[2026-04-21T18:43:40.516+0000] {subprocess.py:93} INFO - [0m18:43:40  Running with dbt=1.8.7
+[2026-04-21T18:43:43.064+0000] {subprocess.py:93} INFO - [0m18:43:43  Registered adapter: bigquery=1.8.3
+[2026-04-21T18:43:43.692+0000] {subprocess.py:93} INFO - [0m18:43:43  Unable to do partial parsing because of a version mismatch
+[2026-04-21T18:43:47.291+0000] {subprocess.py:93} INFO - [0m18:43:47  [[33mWARNING[0m]: Deprecated functionality
+[2026-04-21T18:43:47.293+0000] {subprocess.py:93} INFO - The `tests` config has been renamed to `data_tests`. Please see
+[2026-04-21T18:43:47.294+0000] {subprocess.py:93} INFO - https://docs.getdbt.com/docs/build/data-tests#new-data_tests-syntax for more
+[2026-04-21T18:43:47.295+0000] {subprocess.py:93} INFO - information.
+[2026-04-21T18:43:48.744+0000] {subprocess.py:93} INFO - [0m18:43:48  Found 2 models, 9 data tests, 1 source, 479 macros
+[2026-04-21T18:43:48.749+0000] {subprocess.py:93} INFO - [0m18:43:48
+[2026-04-21T18:43:48.783+0000] {subprocess.py:93} INFO - [0m18:43:48
+[2026-04-21T18:43:48.785+0000] {subprocess.py:93} INFO - [0m18:43:48  Finished running  in 0 hours 0 minutes and 0.03 seconds (0.03s).
+[2026-04-21T18:43:48.786+0000] {subprocess.py:93} INFO - [0m18:43:48  Encountered an error:
+[2026-04-21T18:43:48.788+0000] {subprocess.py:93} INFO - Database Error
+[2026-04-21T18:43:48.789+0000] {subprocess.py:93} INFO -   [Errno 2] No such file or directory: 'C:\\Users\\Ziyad\\OneDrive\\Desktop\\de-journey\\gcp-key.json'
+[2026-04-21T18:43:50.352+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2026-04-21T18:43:50.376+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2026-04-21T18:43:50.382+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=dbt_pipeline, task_id=dbt_run, execution_date=20260421T184334, start_date=20260421T184335, end_date=20260421T184350
+[2026-04-21T18:43:51.238+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 27 for task dbt_run (Bash command failed. The command returned a non-zero exit code 2.; 510)
+[2026-04-21T18:43:51.431+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-04-21T18:43:51.484+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

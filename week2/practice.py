@@ -342,3 +342,26 @@
 #         else:
 #             result["valid"].append(r)
 #     return result
+# def tasks(tasks):
+#     in_degree = {}
+#     deps_by_name = {}
+#     for task in tasks:
+#         name = task["name"]
+#         deps = task["depends_on"]
+#         deps_by_name[name] = deps
+#         in_degree[name] = len(deps)
+    
+#     queue = [name for name, deg in in_degree.items() if deg == 0]
+
+#     result = []
+#     while queue :
+#         current = queue.pop(0)
+#         result.append(current)
+
+#         for name, deps in deps_by_name.items():
+#             if current in deps :
+#                 in_degree[name] -= 1
+#                 if in_degree[name] == 0:
+#                     queue.append(name)
+    
+#     return result 
