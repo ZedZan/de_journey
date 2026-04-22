@@ -20,6 +20,7 @@ models:
         description : "the amount per sale"
         tests : 
           - not_null
+          - is_positive
       
       - name: sale_date
         description : "the date when sales done "
