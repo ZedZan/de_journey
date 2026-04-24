@@ -14,6 +14,7 @@ with base as (
 )
 
 select
+{{ generate_surrogate_key(['customer_name']) }} as surrogate_key,
     customer_name,
     SUM(sale_amount) as total_amount,
     COUNT(sale_id) as sum_transactions
