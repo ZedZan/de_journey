@@ -3,6 +3,11 @@ version : 2
 models: 
   - name: stg_sales
     description: "sales Table"
+    tests:
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          arguments : 
+            min_value : 1
+            max_value : 1000000
 
     columns:
       - name : sale_id
@@ -15,12 +20,20 @@ models:
         description : "the customer name "
         tests :
           - not_null
+          - dbt_expectations.expect_column_value_lengths_to_be_between:
+              arguments : 
+                min_value : 2
+                max_value : 100 
       
       - name : sale_amount
         description : "the amount per sale"
         tests : 
           - not_null
           - is_positive
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value : 0
+                max_value : 10000
       
       - name: sale_date
         description : "the date when sales done "
