@@ -1,0 +1,15 @@
+[2026-04-29T20:54:35.523+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_pipeline.export_cloud scheduled__2026-04-28T00:00:00+00:00 [queued]>
+[2026-04-29T20:54:35.543+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_pipeline.export_cloud scheduled__2026-04-28T00:00:00+00:00 [queued]>
+[2026-04-29T20:54:35.544+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-04-29T20:54:35.572+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): export_cloud> on 2026-04-28 00:00:00+00:00
+[2026-04-29T20:54:35.581+0000] {standard_task_runner.py:60} INFO - Started process 202 to run task
+[2026-04-29T20:54:35.586+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'sales_pipeline', 'export_cloud', 'scheduled__2026-04-28T00:00:00+00:00', '--job-id', '60', '--raw', '--subdir', 'DAGS_FOLDER/sales_pipeline_dag.py', '--cfg-path', '/tmp/tmpuf_1hsmf']
+[2026-04-29T20:54:35.589+0000] {standard_task_runner.py:88} INFO - Job 60: Subtask export_cloud
+[2026-04-29T20:54:35.679+0000] {task_command.py:423} INFO - Running <TaskInstance: sales_pipeline.export_cloud scheduled__2026-04-28T00:00:00+00:00 [running]> on host 1c7f92b4483e
+[2026-04-29T20:54:35.824+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sales_pipeline' AIRFLOW_CTX_TASK_ID='export_cloud' AIRFLOW_CTX_EXECUTION_DATE='2026-04-28T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-28T00:00:00+00:00'
+[2026-04-29T20:54:36.664+0000] {logging_mixin.py:188} INFO - File /opt/***/project/week5/data/pipeline_output.csv uploaded to gs://de-journey-raw/pipeline_output.csv.
+[2026-04-29T20:54:40.741+0000] {logging_mixin.py:188} INFO - 4
+[2026-04-29T20:54:40.742+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-04-29T20:54:40.773+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=sales_pipeline, task_id=export_cloud, execution_date=20260428T000000, start_date=20260429T205435, end_date=20260429T205440
+[2026-04-29T20:54:40.867+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-29T20:54:40.900+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

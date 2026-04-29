@@ -376,3 +376,199 @@ Please take a look at these docs to improve your DAG import time:
 [2026-04-21T18:48:49.272+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:48:49.271+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-04-21T18:48:49.312+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:48:49.311+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
 [2026-04-21T18:48:49.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.591 seconds
+[2026-04-21T18:49:19.703+0000] {processor.py:161} INFO - Started process (PID=713) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:49:19.705+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:49:19.707+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:49:19.706+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:49:20.912+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:49:20.958+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:49:20.957+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:49:20.995+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:49:20.994+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:49:21.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.334 seconds
+[2026-04-21T18:49:51.289+0000] {processor.py:161} INFO - Started process (PID=724) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:49:51.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:49:51.294+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:49:51.293+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:49:52.521+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:49:52.572+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:49:52.569+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:49:52.613+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:49:52.612+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:49:52.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.371 seconds
+[2026-04-21T18:50:22.977+0000] {processor.py:161} INFO - Started process (PID=735) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:50:22.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:50:22.982+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:50:22.981+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:50:24.225+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:50:24.284+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:50:24.283+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:50:24.337+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:50:24.337+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:50:24.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.410 seconds
+[2026-04-21T18:50:54.586+0000] {processor.py:161} INFO - Started process (PID=746) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:50:54.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:50:54.591+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:50:54.590+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:50:55.845+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:50:55.904+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:50:55.903+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:50:55.945+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:50:55.945+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:50:55.976+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.397 seconds
+[2026-04-21T18:51:26.433+0000] {processor.py:161} INFO - Started process (PID=757) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:51:26.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:51:26.439+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:51:26.438+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:51:25.222+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:51:25.265+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:51:25.264+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:51:25.308+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:51:25.307+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:51:25.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.247 seconds
+[2026-04-21T18:51:55.724+0000] {processor.py:161} INFO - Started process (PID=768) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:51:55.726+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:51:55.728+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:51:55.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:51:57.092+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:51:57.207+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:51:57.206+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:51:57.284+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:51:57.284+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:51:57.329+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.609 seconds
+[2026-04-21T18:52:28.157+0000] {processor.py:161} INFO - Started process (PID=779) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:52:28.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:52:28.161+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:52:28.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:52:29.212+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:52:29.263+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:52:29.262+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:52:29.331+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:52:29.331+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:52:29.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.220 seconds
+[2026-04-21T18:52:59.710+0000] {processor.py:161} INFO - Started process (PID=790) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:52:59.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:52:59.714+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:52:59.714+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:53:00.882+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:53:00.920+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:53:00.919+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:53:00.954+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:53:00.954+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:53:00.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.283 seconds
+[2026-04-21T18:53:31.311+0000] {processor.py:161} INFO - Started process (PID=801) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:53:31.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:53:31.314+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:53:31.314+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:53:32.410+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:53:32.460+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:53:32.459+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:53:32.500+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:53:32.499+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:53:32.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.231 seconds
+[2026-04-21T18:54:02.839+0000] {processor.py:161} INFO - Started process (PID=812) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:54:02.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:54:02.844+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:54:02.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:54:03.874+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:54:03.919+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:54:03.918+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:54:03.966+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:54:03.966+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:54:04.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.166 seconds
+[2026-04-21T18:54:34.420+0000] {processor.py:161} INFO - Started process (PID=823) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:54:34.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:54:34.423+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:54:34.423+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:54:35.597+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:54:35.641+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:54:35.640+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:54:35.680+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:54:35.680+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:54:35.934+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.518 seconds
+[2026-04-21T18:55:06.412+0000] {processor.py:161} INFO - Started process (PID=834) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:55:06.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:55:06.418+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:55:06.417+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:55:08.630+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:55:06.445+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:55:06.443+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:55:06.582+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:55:06.581+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:55:06.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 2.674 seconds
+[2026-04-21T18:55:37.255+0000] {processor.py:161} INFO - Started process (PID=845) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:55:37.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:55:37.259+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:55:37.258+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:55:38.921+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:55:38.989+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:55:38.988+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:55:39.037+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:55:39.037+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:55:39.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 2.198 seconds
+[2026-04-21T18:56:09.922+0000] {processor.py:161} INFO - Started process (PID=859) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:56:09.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:56:09.929+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:56:09.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:56:11.388+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:56:11.438+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:56:11.437+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:56:11.486+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:56:11.485+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:56:11.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.623 seconds
+[2026-04-21T18:56:42.020+0000] {processor.py:161} INFO - Started process (PID=872) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:56:42.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:56:42.026+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:56:42.025+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:56:43.329+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:56:43.386+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:56:43.384+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:56:43.439+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:56:43.438+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:56:43.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.481 seconds
+[2026-04-21T18:57:13.697+0000] {processor.py:161} INFO - Started process (PID=883) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:57:13.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:57:13.702+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:57:13.701+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:57:14.990+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:57:15.047+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:57:15.046+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:57:15.118+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:57:15.117+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:57:15.168+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.476 seconds
+[2026-04-21T18:57:45.707+0000] {processor.py:161} INFO - Started process (PID=894) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:57:45.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:57:45.711+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:57:45.710+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:57:47.640+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:57:47.700+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:57:47.698+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:57:47.756+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:57:47.755+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:57:47.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 2.096 seconds
+[2026-04-21T18:58:18.066+0000] {processor.py:161} INFO - Started process (PID=905) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:58:18.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:58:18.072+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:58:18.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:58:19.396+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:58:19.449+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:58:19.448+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:58:19.491+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:58:19.491+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:58:19.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.482 seconds
+[2026-04-21T18:58:49.928+0000] {processor.py:161} INFO - Started process (PID=916) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:58:49.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:58:49.933+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:58:49.932+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:58:51.327+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:58:51.372+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:58:51.371+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:58:51.415+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:58:51.415+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:58:51.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.537 seconds
+[2026-04-21T18:59:21.670+0000] {processor.py:161} INFO - Started process (PID=927) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:59:21.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:59:21.673+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:59:21.672+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:59:22.927+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:59:22.977+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:59:22.976+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:59:23.028+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:59:23.027+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:59:23.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.406 seconds
+[2026-04-21T18:59:53.267+0000] {processor.py:161} INFO - Started process (PID=938) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:59:53.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T18:59:53.271+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:59:53.270+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:59:54.554+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T18:59:54.615+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:59:54.614+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:59:54.666+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:59:54.666+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T18:59:54.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.447 seconds
+[2026-04-21T19:00:24.961+0000] {processor.py:161} INFO - Started process (PID=949) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:00:24.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T19:00:24.967+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:00:24.966+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:00:26.251+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:00:26.308+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:00:26.306+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T19:00:26.366+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:00:26.366+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T19:00:26.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.464 seconds
+[2026-04-21T19:00:56.664+0000] {processor.py:161} INFO - Started process (PID=960) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:00:56.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T19:00:56.670+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:00:56.669+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:00:58.979+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:00:59.033+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:00:59.032+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T19:00:59.081+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:00:59.080+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T19:00:59.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 2.465 seconds
+[2026-04-21T19:01:29.553+0000] {processor.py:161} INFO - Started process (PID=971) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:01:29.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T19:01:29.558+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:01:29.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:01:30.977+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:01:31.026+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:01:31.024+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T19:01:31.074+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:01:31.074+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T19:01:31.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.575 seconds
+[2026-04-21T19:02:01.573+0000] {processor.py:161} INFO - Started process (PID=982) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:02:01.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T19:02:01.577+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:02:01.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:02:03.056+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:02:03.115+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:02:03.114+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T19:02:03.176+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:02:03.176+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T19:02:03.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.646 seconds
+[2026-04-21T19:02:33.684+0000] {processor.py:161} INFO - Started process (PID=993) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:02:33.687+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T19:02:33.690+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:02:33.689+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:02:35.005+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:02:35.054+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:02:35.053+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T19:02:35.118+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:02:35.118+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T19:02:35.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.503 seconds
+[2026-04-21T19:03:05.453+0000] {processor.py:161} INFO - Started process (PID=1004) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:03:05.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T19:03:05.456+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:03:05.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:03:07.104+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T19:03:07.180+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:03:07.175+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T19:03:07.254+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:03:07.254+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T19:03:07.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 1.889 seconds
+[2026-04-21T22:04:30.293+0000] {processor.py:161} INFO - Started process (PID=1018) to work on /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T22:04:30.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_pipeline_dag.py for tasks to queue
+[2026-04-21T22:04:30.338+0000] {logging_mixin.py:188} INFO - [2026-04-21T22:04:30.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T22:04:38.172+0000] {processor.py:840} INFO - DAG(s) 'sales_pipeline' retrieved from /opt/airflow/dags/sales_pipeline_dag.py
+[2026-04-21T22:04:38.316+0000] {logging_mixin.py:188} INFO - [2026-04-21T22:04:38.314+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T22:04:38.477+0000] {logging_mixin.py:188} INFO - [2026-04-21T22:04:38.474+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_pipeline to 2026-04-21 00:00:00+00:00, run_after=2026-04-22 00:00:00+00:00
+[2026-04-21T22:04:38.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_pipeline_dag.py took 8.598 seconds
