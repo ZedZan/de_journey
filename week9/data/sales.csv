@@ -1,0 +1,7 @@
+id,name,country,amount,date
+1,Alice,FR,100.0,2024-01-01
+2,Bob,DE,200.0,2024-01-02
+3,Alice,FR,150.0,2024-01-03
+4,Charlie,FR,300.0,2024-01-04
+5,Bob,DE,50.0,2024-01-05
+6,Charlie,DE,400.0,2024-01-06
