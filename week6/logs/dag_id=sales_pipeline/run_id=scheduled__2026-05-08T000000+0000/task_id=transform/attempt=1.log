@@ -1,0 +1,16 @@
+[2026-05-09T20:41:45.758+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_pipeline.transform scheduled__2026-05-08T00:00:00+00:00 [queued]>
+[2026-05-09T20:41:45.781+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_pipeline.transform scheduled__2026-05-08T00:00:00+00:00 [queued]>
+[2026-05-09T20:41:45.782+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-05-09T20:41:46.030+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): transform> on 2026-05-08 00:00:00+00:00
+[2026-05-09T20:41:46.045+0000] {standard_task_runner.py:60} INFO - Started process 5440 to run task
+[2026-05-09T20:41:46.050+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'sales_pipeline', 'transform', 'scheduled__2026-05-08T00:00:00+00:00', '--job-id', '108', '--raw', '--subdir', 'DAGS_FOLDER/sales_pipeline_dag.py', '--cfg-path', '/tmp/tmp9wnd_4dv']
+[2026-05-09T20:41:46.054+0000] {standard_task_runner.py:88} INFO - Job 108: Subtask transform
+[2026-05-09T20:41:46.422+0000] {task_command.py:423} INFO - Running <TaskInstance: sales_pipeline.transform scheduled__2026-05-08T00:00:00+00:00 [running]> on host c5c53f6c77ae
+[2026-05-09T20:41:46.954+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sales_pipeline' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2026-05-08T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-08T00:00:00+00:00'
+[2026-05-09T20:41:46.985+0000] {sales_pipeline.py:34} INFO - Extracted5
+[2026-05-09T20:41:46.989+0000] {sales_pipeline.py:51} WARNING - Skipping record Carol - invalid sales value: bad_value
+[2026-05-09T20:41:46.990+0000] {base_pipeline.py:28} INFO - Connection closed
+[2026-05-09T20:41:46.991+0000] {python.py:201} INFO - Done. Returned value was: [{'id': '1', 'name': 'Alice', 'sales': 4200.0, 'date': datetime.date(2024, 1, 15), 'loaded_at': datetime.datetime(2026, 5, 9, 20, 41, 46, 989186)}, {'id': '2', 'name': 'Bob', 'sales': 3100.0, 'date': datetime.date(2024, 1, 15), 'loaded_at': datetime.datetime(2026, 5, 9, 20, 41, 46, 989236)}, {'id': '4', 'name': 'Dave', 'sales': 5100.0, 'date': datetime.date(2024, 1, 16), 'loaded_at': datetime.datetime(2026, 5, 9, 20, 41, 46, 990199)}, {'id': '5', 'name': 'Eve', 'sales': 6200.0, 'date': datetime.date(2024, 1, 17), 'loaded_at': datetime.datetime(2026, 5, 9, 20, 41, 46, 990225)}]
+[2026-05-09T20:41:47.430+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=sales_pipeline, task_id=transform, execution_date=20260508T000000, start_date=20260509T204145, end_date=20260509T204147
+[2026-05-09T20:41:47.735+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-09T20:41:47.786+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

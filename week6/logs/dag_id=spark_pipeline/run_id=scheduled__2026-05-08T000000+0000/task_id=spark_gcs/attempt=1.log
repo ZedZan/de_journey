@@ -1,0 +1,28 @@
+[2026-05-09T21:36:22.623+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_pipeline.spark_gcs scheduled__2026-05-08T00:00:00+00:00 [queued]>
+[2026-05-09T21:36:22.655+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_pipeline.spark_gcs scheduled__2026-05-08T00:00:00+00:00 [queued]>
+[2026-05-09T21:36:22.657+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-05-09T21:36:22.723+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): spark_gcs> on 2026-05-08 00:00:00+00:00
+[2026-05-09T21:36:22.747+0000] {standard_task_runner.py:60} INFO - Started process 6705 to run task
+[2026-05-09T21:36:22.761+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spark_pipeline', 'spark_gcs', 'scheduled__2026-05-08T00:00:00+00:00', '--job-id', '114', '--raw', '--subdir', 'DAGS_FOLDER/spark_pipeline_dag.py', '--cfg-path', '/tmp/tmpn_w_l6va']
+[2026-05-09T21:36:22.766+0000] {standard_task_runner.py:88} INFO - Job 114: Subtask spark_gcs
+[2026-05-09T21:36:22.910+0000] {task_command.py:423} INFO - Running <TaskInstance: spark_pipeline.spark_gcs scheduled__2026-05-08T00:00:00+00:00 [running]> on host c5c53f6c77ae
+[2026-05-09T21:36:23.168+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spark_pipeline' AIRFLOW_CTX_TASK_ID='spark_gcs' AIRFLOW_CTX_EXECUTION_DATE='2026-05-08T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-08T00:00:00+00:00'
+[2026-05-09T21:36:23.170+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-09T21:36:23.191+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/project/week9 && python spark_gcs.py']
+[2026-05-09T21:36:23.214+0000] {subprocess.py:86} INFO - Output:
+[2026-05-09T21:36:24.402+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-05-09T21:36:24.403+0000] {subprocess.py:93} INFO -   File "spark_gcs.py", line 4, in <module>
+[2026-05-09T21:36:24.405+0000] {subprocess.py:93} INFO -     from pyspark.sql import SparkSession
+[2026-05-09T21:36:24.406+0000] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'pyspark'
+[2026-05-09T21:36:24.485+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-05-09T21:36:24.508+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-05-09T21:36:24.516+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=spark_pipeline, task_id=spark_gcs, execution_date=20260508T000000, start_date=20260509T213622, end_date=20260509T213624
+[2026-05-09T21:36:24.544+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 114 for task spark_gcs (Bash command failed. The command returned a non-zero exit code 1.; 6705)
+[2026-05-09T21:36:24.637+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-05-09T21:36:24.680+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

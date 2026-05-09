@@ -1,0 +1,54 @@
+[2026-05-09T20:45:29.197+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_test scheduled__2026-05-08T00:00:00+00:00 [queued]>
+[2026-05-09T20:45:29.227+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_test scheduled__2026-05-08T00:00:00+00:00 [queued]>
+[2026-05-09T20:45:29.228+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-05-09T20:45:29.577+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_test> on 2026-05-08 00:00:00+00:00
+[2026-05-09T20:45:29.586+0000] {standard_task_runner.py:60} INFO - Started process 5582 to run task
+[2026-05-09T20:45:29.591+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dbt_pipeline', 'dbt_test', 'scheduled__2026-05-08T00:00:00+00:00', '--job-id', '112', '--raw', '--subdir', 'DAGS_FOLDER/dbt_pipeline_dag.py', '--cfg-path', '/tmp/tmpos1ag9s5']
+[2026-05-09T20:45:29.595+0000] {standard_task_runner.py:88} INFO - Job 112: Subtask dbt_test
+[2026-05-09T20:45:29.784+0000] {task_command.py:423} INFO - Running <TaskInstance: dbt_pipeline.dbt_test scheduled__2026-05-08T00:00:00+00:00 [running]> on host c5c53f6c77ae
+[2026-05-09T20:45:30.031+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_pipeline' AIRFLOW_CTX_TASK_ID='dbt_test' AIRFLOW_CTX_EXECUTION_DATE='2026-05-08T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-08T00:00:00+00:00'
+[2026-05-09T20:45:30.033+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-09T20:45:30.051+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/project/week7/de_journey && dbt test --profiles-dir /opt/***/project/week7/de_journey --no-version-check']
+[2026-05-09T20:45:30.071+0000] {subprocess.py:86} INFO - Output:
+[2026-05-09T20:45:33.307+0000] {subprocess.py:93} INFO - [0m20:45:33  Running with dbt=1.8.7
+[2026-05-09T20:45:35.954+0000] {subprocess.py:93} INFO - [0m20:45:35  Registered adapter: bigquery=1.8.3
+[2026-05-09T20:45:41.952+0000] {subprocess.py:93} INFO - [0m20:45:41  Found 2 models, 1 snapshot, 13 data tests, 1 source, 759 macros
+[2026-05-09T20:45:41.960+0000] {subprocess.py:93} INFO - [0m20:45:41
+[2026-05-09T20:45:42.812+0000] {subprocess.py:93} INFO - [0m20:45:42  Concurrency: 4 threads (target='dev')
+[2026-05-09T20:45:42.814+0000] {subprocess.py:93} INFO - [0m20:45:42
+[2026-05-09T20:45:42.840+0000] {subprocess.py:93} INFO - [0m20:45:42  1 of 13 START test dbt_expectations_expect_column_value_lengths_to_be_between_stg_sales_customer_name__100__2  [RUN]
+[2026-05-09T20:45:42.843+0000] {subprocess.py:93} INFO - [0m20:45:42  2 of 13 START test dbt_expectations_expect_column_values_to_be_between_stg_sales_sale_amount__10000__0  [RUN]
+[2026-05-09T20:45:42.845+0000] {subprocess.py:93} INFO - [0m20:45:42  3 of 13 START test dbt_expectations_expect_table_row_count_to_be_between_stg_sales_1000000__1  [RUN]
+[2026-05-09T20:45:42.850+0000] {subprocess.py:93} INFO - [0m20:45:42  4 of 13 START test is_positive_stg_sales_sale_amount ........................... [RUN]
+[2026-05-09T20:45:45.911+0000] {subprocess.py:93} INFO - [0m20:45:45  2 of 13 PASS dbt_expectations_expect_column_values_to_be_between_stg_sales_sale_amount__10000__0  [[32mPASS[0m in 3.06s]
+[2026-05-09T20:45:45.919+0000] {subprocess.py:93} INFO - [0m20:45:45  5 of 13 START test not_null_mart_sales_summary_customer_name ................... [RUN]
+[2026-05-09T20:45:45.968+0000] {subprocess.py:93} INFO - [0m20:45:45  4 of 13 PASS is_positive_stg_sales_sale_amount ................................. [[32mPASS[0m in 3.11s]
+[2026-05-09T20:45:45.974+0000] {subprocess.py:93} INFO - [0m20:45:45  6 of 13 START test not_null_mart_sales_summary_sum_transactions ................ [RUN]
+[2026-05-09T20:45:46.018+0000] {subprocess.py:93} INFO - [0m20:45:46  3 of 13 PASS dbt_expectations_expect_table_row_count_to_be_between_stg_sales_1000000__1  [[32mPASS[0m in 3.16s]
+[2026-05-09T20:45:46.027+0000] {subprocess.py:93} INFO - [0m20:45:46  7 of 13 START test not_null_mart_sales_summary_total_amount .................... [RUN]
+[2026-05-09T20:45:46.047+0000] {subprocess.py:93} INFO - [0m20:45:46  1 of 13 PASS dbt_expectations_expect_column_value_lengths_to_be_between_stg_sales_customer_name__100__2  [[32mPASS[0m in 3.20s]
+[2026-05-09T20:45:46.061+0000] {subprocess.py:93} INFO - [0m20:45:46  8 of 13 START test not_null_stg_sales_customer_name ............................ [RUN]
+[2026-05-09T20:45:47.574+0000] {subprocess.py:93} INFO - [0m20:45:47  8 of 13 PASS not_null_stg_sales_customer_name .................................. [[32mPASS[0m in 1.50s]
+[2026-05-09T20:45:47.579+0000] {subprocess.py:93} INFO - [0m20:45:47  7 of 13 PASS not_null_mart_sales_summary_total_amount .......................... [[32mPASS[0m in 1.55s]
+[2026-05-09T20:45:47.595+0000] {subprocess.py:93} INFO - [0m20:45:47  5 of 13 PASS not_null_mart_sales_summary_customer_name ......................... [[32mPASS[0m in 1.67s]
+[2026-05-09T20:45:47.611+0000] {subprocess.py:93} INFO - [0m20:45:47  9 of 13 START test not_null_stg_sales_sale_amount .............................. [RUN]
+[2026-05-09T20:45:47.616+0000] {subprocess.py:93} INFO - [0m20:45:47  10 of 13 START test not_null_stg_sales_sale_date ............................... [RUN]
+[2026-05-09T20:45:47.621+0000] {subprocess.py:93} INFO - [0m20:45:47  11 of 13 START test not_null_stg_sales_sale_id ................................. [RUN]
+[2026-05-09T20:45:47.802+0000] {subprocess.py:93} INFO - [0m20:45:47  6 of 13 PASS not_null_mart_sales_summary_sum_transactions ...................... [[32mPASS[0m in 1.82s]
+[2026-05-09T20:45:47.818+0000] {subprocess.py:93} INFO - [0m20:45:47  12 of 13 START test unique_mart_sales_summary_customer_name .................... [RUN]
+[2026-05-09T20:45:49.618+0000] {subprocess.py:93} INFO - [0m20:45:49  11 of 13 PASS not_null_stg_sales_sale_id ....................................... [[32mPASS[0m in 1.99s]
+[2026-05-09T20:45:49.625+0000] {subprocess.py:93} INFO - [0m20:45:49  13 of 13 START test unique_stg_sales_sale_id ................................... [RUN]
+[2026-05-09T20:45:49.652+0000] {subprocess.py:93} INFO - [0m20:45:49  9 of 13 PASS not_null_stg_sales_sale_amount .................................... [[32mPASS[0m in 2.03s]
+[2026-05-09T20:45:49.954+0000] {subprocess.py:93} INFO - [0m20:45:49  10 of 13 PASS not_null_stg_sales_sale_date ..................................... [[32mPASS[0m in 2.33s]
+[2026-05-09T20:45:50.203+0000] {subprocess.py:93} INFO - [0m20:45:50  12 of 13 PASS unique_mart_sales_summary_customer_name .......................... [[32mPASS[0m in 2.38s]
+[2026-05-09T20:45:51.892+0000] {subprocess.py:93} INFO - [0m20:45:51  13 of 13 PASS unique_stg_sales_sale_id ......................................... [[32mPASS[0m in 2.26s]
+[2026-05-09T20:45:51.963+0000] {subprocess.py:93} INFO - [0m20:45:51
+[2026-05-09T20:45:51.974+0000] {subprocess.py:93} INFO - [0m20:45:51  Finished running 13 data tests in 0 hours 0 minutes and 10.00 seconds (10.00s).
+[2026-05-09T20:45:52.882+0000] {subprocess.py:93} INFO - [0m20:45:52
+[2026-05-09T20:45:52.884+0000] {subprocess.py:93} INFO - [0m20:45:52  [32mCompleted successfully[0m
+[2026-05-09T20:45:52.887+0000] {subprocess.py:93} INFO - [0m20:45:52
+[2026-05-09T20:45:52.890+0000] {subprocess.py:93} INFO - [0m20:45:52  Done. PASS=13 WARN=0 ERROR=0 SKIP=0 TOTAL=13
+[2026-05-09T20:45:54.410+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-05-09T20:45:54.472+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dbt_pipeline, task_id=dbt_test, execution_date=20260508T000000, start_date=20260509T204529, end_date=20260509T204554
+[2026-05-09T20:45:54.553+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-09T20:45:54.598+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,12 @@
+[2026-04-30T00:19:49.257+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_pipeline.extract scheduled__2026-04-29T00:00:00+00:00 [queued]>
+[2026-04-30T00:19:49.276+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_pipeline.extract scheduled__2026-04-29T00:00:00+00:00 [queued]>
+[2026-04-30T00:19:49.278+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-04-30T00:19:52.322+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): extract> on 2026-04-29 00:00:00+00:00
+[2026-04-30T00:19:52.332+0000] {standard_task_runner.py:60} INFO - Started process 569 to run task
+[2026-04-30T00:19:52.337+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'sales_pipeline', 'extract', 'scheduled__2026-04-29T00:00:00+00:00', '--job-id', '69', '--raw', '--subdir', 'DAGS_FOLDER/sales_pipeline_dag.py', '--cfg-path', '/tmp/tmpiig4q6y1']
+[2026-04-30T00:19:52.342+0000] {standard_task_runner.py:88} INFO - Job 69: Subtask extract
+[2026-04-30T00:19:54.815+0000] {task_command.py:423} INFO - Running <TaskInstance: sales_pipeline.extract scheduled__2026-04-29T00:00:00+00:00 [running]> on host c5c53f6c77ae
+[2026-04-30T19:07:56.356+0000] {local_task_job_runner.py:211} ERROR - Heartbeat time limit exceeded!
+[2026-04-30T19:07:56.391+0000] {process_utils.py:131} INFO - Sending 15 to group 569. PIDs of all processes in the group: [569]
+[2026-04-30T19:07:56.395+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 569
+[2026-04-30T19:07:56.431+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=569, status='terminated', exitcode=<Negsignal.SIGTERM: -15>, started='00:19:52') (569) terminated with exit code -15
