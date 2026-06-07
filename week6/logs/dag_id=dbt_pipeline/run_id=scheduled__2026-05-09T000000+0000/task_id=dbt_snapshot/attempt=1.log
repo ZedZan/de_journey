@@ -1,0 +1,32 @@
+[2026-05-10T01:05:07.103+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_snapshot scheduled__2026-05-09T00:00:00+00:00 [queued]>
+[2026-05-10T01:05:07.129+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_snapshot scheduled__2026-05-09T00:00:00+00:00 [queued]>
+[2026-05-10T01:05:07.131+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-05-10T01:05:07.478+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_snapshot> on 2026-05-09 00:00:00+00:00
+[2026-05-10T01:05:07.488+0000] {standard_task_runner.py:60} INFO - Started process 7767 to run task
+[2026-05-10T01:05:07.494+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dbt_pipeline', 'dbt_snapshot', 'scheduled__2026-05-09T00:00:00+00:00', '--job-id', '120', '--raw', '--subdir', 'DAGS_FOLDER/dbt_pipeline_dag.py', '--cfg-path', '/tmp/tmpc1fek3d4']
+[2026-05-10T01:05:07.498+0000] {standard_task_runner.py:88} INFO - Job 120: Subtask dbt_snapshot
+[2026-05-10T01:05:07.733+0000] {task_command.py:423} INFO - Running <TaskInstance: dbt_pipeline.dbt_snapshot scheduled__2026-05-09T00:00:00+00:00 [running]> on host c5c53f6c77ae
+[2026-05-10T01:05:08.977+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_pipeline' AIRFLOW_CTX_TASK_ID='dbt_snapshot' AIRFLOW_CTX_EXECUTION_DATE='2026-05-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-09T00:00:00+00:00'
+[2026-05-10T01:05:08.980+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-10T01:05:09.091+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/project/week7/de_journey && dbt snapshot --profiles-dir /opt/***/project/week7/de_journey --no-version-check']
+[2026-05-10T01:05:09.459+0000] {subprocess.py:86} INFO - Output:
+[2026-05-16T19:37:27.831+0000] {local_task_job_runner.py:211} ERROR - Heartbeat time limit exceeded!
+[2026-05-16T19:37:27.837+0000] {process_utils.py:131} INFO - Sending 15 to group 7767. PIDs of all processes in the group: [7768, 7767]
+[2026-05-16T19:37:27.839+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 7767
+[2026-05-16T19:37:27.841+0000] {taskinstance.py:2450} ERROR - Received SIGTERM. Terminating subprocesses.
+[2026-05-16T19:37:27.843+0000] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2026-05-16T19:37:27.868+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 203, in execute
+    result = self.subprocess_hook.run_command(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/subprocess.py", line 91, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b""):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2452, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2026-05-16T19:37:28.254+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=dbt_pipeline, task_id=dbt_snapshot, execution_date=20260509T000000, start_date=20260510T010507, end_date=20260516T193728
+[2026-05-16T19:37:29.017+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 120 for task dbt_snapshot (Task received SIGTERM signal; 7767)
+[2026-05-16T19:37:29.120+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=7768, status='terminated', started='2026-05-10 01:05:08') (7768) terminated with exit code None
+[2026-05-16T19:37:29.133+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=7767, status='terminated', exitcode=1, started='2026-05-10 01:05:06') (7767) terminated with exit code 1

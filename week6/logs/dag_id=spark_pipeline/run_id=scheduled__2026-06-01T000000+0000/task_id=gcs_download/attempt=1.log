@@ -1,0 +1,14 @@
+[2026-06-06T18:29:42.668+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_pipeline.gcs_download scheduled__2026-06-01T00:00:00+00:00 [queued]>
+[2026-06-06T18:29:42.733+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_pipeline.gcs_download scheduled__2026-06-01T00:00:00+00:00 [queued]>
+[2026-06-06T18:29:42.767+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-06-06T18:29:42.882+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): gcs_download> on 2026-06-01 00:00:00+00:00
+[2026-06-06T18:29:42.909+0000] {standard_task_runner.py:60} INFO - Started process 15095 to run task
+[2026-06-06T18:29:42.916+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spark_pipeline', 'gcs_download', 'scheduled__2026-06-01T00:00:00+00:00', '--job-id', '174', '--raw', '--subdir', 'DAGS_FOLDER/spark_pipeline_dag.py', '--cfg-path', '/tmp/tmprru46zmv']
+[2026-06-06T18:29:42.951+0000] {standard_task_runner.py:88} INFO - Job 174: Subtask gcs_download
+[2026-06-06T18:29:43.407+0000] {task_command.py:423} INFO - Running <TaskInstance: spark_pipeline.gcs_download scheduled__2026-06-01T00:00:00+00:00 [running]> on host c5c53f6c77ae
+[2026-06-06T18:29:44.141+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spark_pipeline' AIRFLOW_CTX_TASK_ID='gcs_download' AIRFLOW_CTX_EXECUTION_DATE='2026-06-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-01T00:00:00+00:00'
+[2026-06-06T18:29:42.397+0000] {logging_mixin.py:188} INFO - Downloaded pipeline_output.csv from GCS
+[2026-06-06T18:29:42.412+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-06-06T18:29:42.496+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=spark_pipeline, task_id=gcs_download, execution_date=20260601T000000, start_date=20260606T182942, end_date=20260606T182942
+[2026-06-06T18:29:43.422+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-06T18:29:43.656+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

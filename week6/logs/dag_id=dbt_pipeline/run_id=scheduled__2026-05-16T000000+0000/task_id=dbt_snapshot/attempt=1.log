@@ -1,0 +1,30 @@
+[2026-05-30T14:50:17.366+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_snapshot scheduled__2026-05-16T00:00:00+00:00 [queued]>
+[2026-05-30T14:50:17.555+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_snapshot scheduled__2026-05-16T00:00:00+00:00 [queued]>
+[2026-05-30T14:50:17.556+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-05-30T14:50:18.646+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_snapshot> on 2026-05-16 00:00:00+00:00
+[2026-05-30T14:50:18.663+0000] {standard_task_runner.py:60} INFO - Started process 9226 to run task
+[2026-05-30T14:50:18.664+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dbt_pipeline', 'dbt_snapshot', 'scheduled__2026-05-16T00:00:00+00:00', '--job-id', '146', '--raw', '--subdir', 'DAGS_FOLDER/dbt_pipeline_dag.py', '--cfg-path', '/tmp/tmpxpg7ut33']
+[2026-05-30T14:50:18.668+0000] {standard_task_runner.py:88} INFO - Job 146: Subtask dbt_snapshot
+[2026-05-30T14:50:19.688+0000] {task_command.py:423} INFO - Running <TaskInstance: dbt_pipeline.dbt_snapshot scheduled__2026-05-16T00:00:00+00:00 [running]> on host c5c53f6c77ae
+[2026-05-30T14:50:20.499+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_pipeline' AIRFLOW_CTX_TASK_ID='dbt_snapshot' AIRFLOW_CTX_EXECUTION_DATE='2026-05-16T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-16T00:00:00+00:00'
+[2026-05-30T14:50:20.501+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-30T14:50:20.907+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/project/week7/de_journey && dbt snapshot --profiles-dir /opt/***/project/week7/de_journey --no-version-check']
+[2026-05-30T14:50:21.289+0000] {subprocess.py:86} INFO - Output:
+[2026-05-30T14:51:57.833+0000] {subprocess.py:93} INFO - [0m14:51:57  Running with dbt=1.8.7
+[2026-05-30T14:52:30.390+0000] {subprocess.py:93} INFO - [0m14:52:30  Registered adapter: bigquery=1.8.3
+[2026-05-30T14:53:11.479+0000] {subprocess.py:93} INFO - [0m14:53:11  Found 2 models, 1 snapshot, 13 data tests, 1 source, 759 macros
+[2026-05-30T14:53:11.489+0000] {subprocess.py:93} INFO - [0m14:53:11
+[2026-05-30T14:53:14.425+0000] {subprocess.py:93} INFO - [0m14:53:14  Concurrency: 4 threads (target='dev')
+[2026-05-30T14:53:14.427+0000] {subprocess.py:93} INFO - [0m14:53:14
+[2026-05-30T14:53:14.756+0000] {subprocess.py:93} INFO - [0m14:53:14  1 of 1 START snapshot snapshots.sales_snapshot ................................. [RUN]
+[2026-05-30T14:53:22.763+0000] {subprocess.py:93} INFO - [0m14:53:22  1 of 1 OK snapshotted snapshots.sales_snapshot ................................. [[32mMERGE (0.0 rows, 351.0 Bytes processed)[0m in 8.00s]
+[2026-05-30T14:53:22.783+0000] {subprocess.py:93} INFO - [0m14:53:22
+[2026-05-30T14:53:22.785+0000] {subprocess.py:93} INFO - [0m14:53:22  Finished running 1 snapshot in 0 hours 0 minutes and 11.29 seconds (11.29s).
+[2026-05-30T14:53:23.088+0000] {subprocess.py:93} INFO - [0m14:53:23
+[2026-05-30T14:53:23.092+0000] {subprocess.py:93} INFO - [0m14:53:23  [32mCompleted successfully[0m
+[2026-05-30T14:53:23.095+0000] {subprocess.py:93} INFO - [0m14:53:23
+[2026-05-30T14:53:23.098+0000] {subprocess.py:93} INFO - [0m14:53:23  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2026-05-30T14:53:26.176+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-05-30T14:53:26.316+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dbt_pipeline, task_id=dbt_snapshot, execution_date=20260516T000000, start_date=20260530T145017, end_date=20260530T145326
+[2026-05-30T14:53:26.446+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-30T14:53:26.615+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

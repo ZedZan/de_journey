@@ -365,3 +365,258 @@
 #                     queue.append(name)
     
 #     return result 
+
+
+# def validated(records, rules):
+#     result = {"valid": [], "invalid" : []}
+#     for r in records:
+#         failed = []
+#         for i, rule in enumerate(rules):
+#             if rule(r) is False:
+#                 failed.append(i)
+#         if not failed:
+#             result["valid"].append(r)
+#         else:
+#             new_record = r.copy()
+#             new_record["failed_rules"] = failed
+#             result["invalid"].append(new_record)
+    
+#     return result 
+# from string import Formatter
+# def rendered(template, params):
+#     place_holder = []
+#     for _, field_name, _, _ in Formatter().parse(template):
+#         if field_name is not None :
+#             place_holder.append(field_name)
+    
+#     for name in place_holder:
+#         if name  not in params:
+#             raise ValueError(f"Missing key: {name}")
+        
+#     return template.format(**params)
+
+# def versioning(records):
+#     latest ={}
+#     for r in records:
+#         rid = r["id"]
+#         if rid not in latest :
+#             latest[rid] = r
+#         else:
+#             if r["version"] > latest[rid]["version"]:
+#                 latest[rid] = r
+#     return list(latest.values())
+
+# def stats(num) -> dict:
+#     values = [n for n in num if n is not None]
+#     count = len(values)
+#     mean = sum(values) / count
+#     minimum = min(values)
+#     maximum = max(values)
+
+#     squared_diffs =[(x - mean) **2 for x in values]
+#     variance = sum(squared_diffs) / count
+#     std = variance ** 0.5
+#     std = round(std ,2)
+
+#     return {
+#         "count" : count,
+#         "mean" : mean,
+#         "min" : minimum,
+#         "max" : maximum,
+#         "std" : std
+#     }
+
+# def run_pipeline(steps):
+#     for step in steps:
+#         try:
+#             step()
+#         except Exception as e:
+#             return {
+#                 "status" : "failed",
+#                 "step" : step.__name__,
+#                 "error" : str(e)
+#             }
+#     return {"status" : "success"}
+
+# def grouping(records, group):
+#     groups = {}
+#     for r in records:
+#         key = tuple(r[col] for col in group)
+#         groups[key] = groups.get(key, 0) +1
+#     return groups
+
+# def parse_query(query):
+#     tokens = query.split()
+#     result = {
+#         "select" : None,
+#         "from" : None,
+#         "where" : None,
+#         "order_by" : None
+#     }
+
+#     try :
+#         select_idx = tokens.index("SELECT")
+#         from_idx = tokens.index("FROM")
+#     except ValueError:
+#         return result
+
+#     result["select"] = tokens[select_idx +1 : from_idx]
+#     result["select"] = [col.strip(",") for col in result["select"]]
+
+#     result["from"] = tokens[from_idx +1]
+
+#     if "WHERE" in tokens :
+#         where_idx = tokens.index("WHERE")
+#         end = tokens.index("ORDER") if "ORDER" in tokens else len(tokens)
+#         result["where"] = " ".join(tokens[where_idx +1 : end])
+    
+#     if "ORDER" in tokens:
+#         order_idx = tokens.index("ORDER")
+#         result["order_by"] = " ".join(tokens[order_idx +2 :])
+    
+#     return result
+# def group_by_column(records, column):
+#     result = {}
+
+#     for r in records:
+#         key = r[column]
+#         if key not in result:
+#           result[key] = []
+#         result[key].append(r)
+#     return result
+
+# def list_files(fs, prefix=""):
+#     paths = []
+
+#     for name, value in fs.items():
+#         full_path = f"{prefix}/{name}" if prefix else name
+
+#         if isinstance(value, dict):
+#             # Folder → go deeper
+#             paths.extend(list_files(value, full_path))
+#         else:
+#             # File → add full path
+#             paths.append(full_path)
+
+#     return paths      
+
+# def has_cycle(dag):
+#     visited = set()
+#     in_stack = set()   # nodes currently in recursion stack
+
+#     def dfs(node):
+#         if node in in_stack:
+#             return True   # cycle found
+
+#         if node in visited:
+#             return False  # already processed safely
+
+#         visited.add(node)
+#         in_stack.add(node)
+
+#         for dep in dag.get(node, []):
+#             if dfs(dep):
+#                 return True
+
+#         in_stack.remove(node)
+#         return False
+
+#     # Check every node in case the graph is disconnected
+#     for node in dag:
+#         if dfs(node):
+#             return True
+
+#     return False
+
+# def read_csv(filepath):
+#     with open(filepath, "r") as f:
+#         lines = f.read().splitlines()
+
+#     header = lines[0].split(",")
+
+#     data = []
+#     for line in lines[1:]:
+#         values = line.split(",")
+#         row_dict = dict(zip(header, values))
+#         data.append(row_dict)
+    
+#     return data
+
+# def write_csv(filepath, data):
+#     if not data:
+#         return  # nothing to write
+
+#     # Extract header from the keys of the first row
+#     header = list(data[0].keys())
+
+#     with open(filepath, "w") as f:
+#         # Write header row
+#         f.write(",".join(header) + "\n")
+
+#         # Write each data row
+#         for row in data:
+#             values = [str(row[key]) for key in header]
+#             f.write(",".join(values) + "\n")
+# import json
+# def save_json(filepath, data):
+#     with open(filepath, "w") as f :
+#         json.dump(data, f, indent=2)
+
+# def load_json(filepath):
+#     with open(filepath, "r") as f:
+#        return json.load(f)
+
+def extract_fields(data, fields):
+    result = []
+    for row in data:
+        new_row = {}
+        for field in fields :
+            new_row[field] = row[field]
+        result.append(new_row)
+    return result
+from datetime import datetime
+def filter_by_date_range(records, start, end):
+    result = []
+    start_date = datetime.strptime(start, "%Y-%m-%d")
+    end_date = datetime.strptime(end, "%Y-%m-%d")
+    for record in records:
+        record_date = datetime.strptime(record["date"], "%Y-%m-%d")
+        if start_date <= record_date<= end_date:
+            result.append(record)
+    return result
+import json
+def load_json(filepath):
+    try:
+        with open(filepath, "r") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print("File not found")
+    except json.JSONDecodeError:
+        print("Invalid Json")
+    except Exception as e :
+        print(f"error :  {e}")
+
+# def list_conprehension(matches):
+#     result1 = [match["champion"] for match in matches]
+#     result2 = [match["match_id"] for match in matches if match["win"] == True]
+#     result3 = [match["kill"] * 2 for match in matches if match["kill"] > 3]
+
+def process_matches(filepath):
+    data = load_json(filepath)
+    if data is None:
+        return []
+    new_data = [value for value in data if value["win"] == True]
+    return [{"match_id" : val["match_id"], "champion" : val["champion"]} for val in new_data]
+
+# with kda_calculated AS(
+#     select champion, (kills + assists) / deaths AS KDA
+#     from matches 
+# ),
+# KDA_positive AS(
+#     select *
+#     from kda_calculated 
+#     where KDA > 3
+# )
+
+# select champion, avg(KDA) as AVG(KDA) from KDA_positive 
+# group BY champion 

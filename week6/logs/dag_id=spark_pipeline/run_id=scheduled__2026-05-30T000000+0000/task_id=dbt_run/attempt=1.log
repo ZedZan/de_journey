@@ -1,0 +1,32 @@
+[2026-05-31T20:08:42.621+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_pipeline.dbt_run scheduled__2026-05-30T00:00:00+00:00 [queued]>
+[2026-05-31T20:08:42.791+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_pipeline.dbt_run scheduled__2026-05-30T00:00:00+00:00 [queued]>
+[2026-05-31T20:08:42.913+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-05-31T20:08:43.219+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_run> on 2026-05-30 00:00:00+00:00
+[2026-05-31T20:08:43.276+0000] {standard_task_runner.py:60} INFO - Started process 12123 to run task
+[2026-05-31T20:08:43.285+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spark_pipeline', 'dbt_run', 'scheduled__2026-05-30T00:00:00+00:00', '--job-id', '162', '--raw', '--subdir', 'DAGS_FOLDER/spark_pipeline_dag.py', '--cfg-path', '/tmp/tmp72xu5_fw']
+[2026-05-31T20:08:43.316+0000] {standard_task_runner.py:88} INFO - Job 162: Subtask dbt_run
+[2026-05-31T20:08:44.047+0000] {task_command.py:423} INFO - Running <TaskInstance: spark_pipeline.dbt_run scheduled__2026-05-30T00:00:00+00:00 [running]> on host c5c53f6c77ae
+[2026-05-31T20:08:45.042+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spark_pipeline' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2026-05-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-30T00:00:00+00:00'
+[2026-05-31T20:08:45.060+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-31T20:08:45.097+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/project/week7/de_journey && dbt run --profiles-dir /opt/***/project/week7/de_journey --no-version-check']
+[2026-05-31T20:08:45.161+0000] {subprocess.py:86} INFO - Output:
+[2026-05-31T20:10:01.821+0000] {subprocess.py:93} INFO - [0m20:10:01  Running with dbt=1.8.7
+[2026-05-31T20:10:09.831+0000] {subprocess.py:93} INFO - [0m20:10:09  Registered adapter: bigquery=1.8.3
+[2026-05-31T20:10:18.999+0000] {subprocess.py:93} INFO - [0m20:10:18  Found 2 models, 1 snapshot, 13 data tests, 1 source, 759 macros
+[2026-05-31T20:10:19.008+0000] {subprocess.py:93} INFO - [0m20:10:19
+[2026-05-31T20:10:20.703+0000] {subprocess.py:93} INFO - [0m20:10:20  Concurrency: 4 threads (target='dev')
+[2026-05-31T20:10:20.706+0000] {subprocess.py:93} INFO - [0m20:10:20
+[2026-05-31T20:10:20.736+0000] {subprocess.py:93} INFO - [0m20:10:20  1 of 2 START sql view model de_journey_dw_staging.stg_sales .................... [RUN]
+[2026-05-31T20:10:22.676+0000] {subprocess.py:93} INFO - [0m20:10:22  1 of 2 OK created sql view model de_journey_dw_staging.stg_sales ............... [[32mCREATE VIEW (0 processed)[0m in 1.93s]
+[2026-05-31T20:10:22.690+0000] {subprocess.py:93} INFO - [0m20:10:22  2 of 2 START sql incremental model de_journey_dw_marts.mart_sales_summary ...... [RUN]
+[2026-05-31T20:10:26.371+0000] {subprocess.py:93} INFO - [0m20:10:26  2 of 2 OK created sql incremental model de_journey_dw_marts.mart_sales_summary . [[32mMERGE (0.0 rows, 278.0 Bytes processed)[0m in 3.67s]
+[2026-05-31T20:10:26.392+0000] {subprocess.py:93} INFO - [0m20:10:26
+[2026-05-31T20:10:26.394+0000] {subprocess.py:93} INFO - [0m20:10:26  Finished running 1 view model, 1 incremental model in 0 hours 0 minutes and 7.38 seconds (7.38s).
+[2026-05-31T20:10:30.507+0000] {subprocess.py:93} INFO - [0m20:10:30
+[2026-05-31T20:10:30.515+0000] {subprocess.py:93} INFO - [0m20:10:30  [32mCompleted successfully[0m
+[2026-05-31T20:10:30.522+0000] {subprocess.py:93} INFO - [0m20:10:30
+[2026-05-31T20:10:30.525+0000] {subprocess.py:93} INFO - [0m20:10:30  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[2026-05-31T20:10:40.767+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-05-31T20:10:41.383+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=spark_pipeline, task_id=dbt_run, execution_date=20260530T000000, start_date=20260531T200842, end_date=20260531T201041
+[2026-05-31T20:10:42.600+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-31T20:10:42.648+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
