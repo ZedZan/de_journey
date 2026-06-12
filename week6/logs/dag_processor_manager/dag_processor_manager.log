@@ -27316,3 +27316,2389 @@ File Path                                  PID  Runtime      # DAGs    # Errors 
 /opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.66s           2026-06-06T20:40:36
 /opt/airflow/dags/spark_pipeline_dag.py  19335  0.01s             1           0  0.38s           2026-06-06T20:40:14
 ================================================================================
+[2026-06-06T20:41:12.002+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.31s           2026-06-06T20:41:08
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.44s           2026-06-06T20:41:08
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.39s           2026-06-06T20:40:44
+================================================================================
+[2026-06-06T23:41:29.405+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-06T23:41:29.568+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T19:26:29.893+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  1.49s           2026-06-06T23:41:31
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.41s           2026-06-06T23:41:33
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  1.56s           2026-06-06T23:41:31
+================================================================================
+[2026-06-07T19:26:30.127+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T19:26:30.854+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T19:26:52.805+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  9.17s           2026-06-07T19:26:40
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  3.64s           2026-06-07T19:26:43
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  9.23s           2026-06-07T19:26:40
+================================================================================
+[2026-06-07T19:27:20.822+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  2.74s           2026-06-07T19:27:14
+/opt/airflow/dags/sales_pipeline_dag.py  19423  6.13s             1           0  3.64s           2026-06-07T19:26:43
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  3.79s           2026-06-07T19:27:14
+================================================================================
+[2026-06-07T19:27:48.341+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  1.18s           2026-06-07T19:27:45
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  11.10s          2026-06-07T19:27:25
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  2.43s           2026-06-07T19:27:47
+================================================================================
+[2026-06-07T19:28:16.049+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.93s           2026-06-07T19:28:17
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.78s           2026-06-07T19:27:59
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  2.43s           2026-06-07T19:27:47
+================================================================================
+[2026-06-07T19:28:43.472+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.93s           2026-06-07T19:28:17
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.62s           2026-06-07T19:28:32
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.77s           2026-06-07T19:28:19
+================================================================================
+[2026-06-07T19:29:10.878+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T19:28:47
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.09s           2026-06-07T19:29:04
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  1.42s           2026-06-07T19:28:51
+================================================================================
+[2026-06-07T19:29:39.082+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  1.03s           2026-06-07T19:29:19
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.23s           2026-06-07T19:29:36
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  1.15s           2026-06-07T19:29:23
+================================================================================
+[2026-06-07T19:30:06.976+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.39s           2026-06-07T19:29:49
+/opt/airflow/dags/sales_pipeline_dag.py  19522  0.01s             1           0  2.23s           2026-06-07T19:29:36
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.56s           2026-06-07T19:29:54
+================================================================================
+[2026-06-07T19:30:34.364+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.54s           2026-06-07T19:30:20
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.52s           2026-06-07T19:30:08
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.79s           2026-06-07T19:30:25
+================================================================================
+[2026-06-07T19:31:01.722+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T19:30:51
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.91s           2026-06-07T19:30:40
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.68s           2026-06-07T19:30:56
+================================================================================
+[2026-06-07T19:31:29.003+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  1.12s           2026-06-07T19:31:23
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.43s           2026-06-07T19:31:12
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  -0.45s          2026-06-07T19:31:25
+================================================================================
+[2026-06-07T19:31:30.809+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T19:31:30.874+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T19:31:56.982+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py    19681  3.42s             1           0  1.12s           2026-06-07T19:31:23
+/opt/airflow/dags/sales_pipeline_dag.py  19677  13.70s            1           0  1.43s           2026-06-07T19:31:12
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  -0.45s          2026-06-07T19:31:25
+================================================================================
+[2026-06-07T19:32:24.465+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  15.39s          2026-06-07T19:32:08
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  25.70s          2026-06-07T19:32:08
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.52s           2026-06-07T19:32:09
+================================================================================
+[2026-06-07T19:32:51.907+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.45s           2026-06-07T19:32:40
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.88s           2026-06-07T19:32:42
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  1.03s           2026-06-07T19:32:40
+================================================================================
+[2026-06-07T19:33:19.224+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.56s           2026-06-07T19:33:11
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.90s           2026-06-07T19:33:14
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.65s           2026-06-07T19:33:13
+================================================================================
+[2026-06-07T19:33:46.520+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.68s           2026-06-07T19:33:42
+/opt/airflow/dags/sales_pipeline_dag.py  19735  1.46s             1           0  1.90s           2026-06-07T19:33:14
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  -2.14s          2026-06-07T19:33:41
+================================================================================
+[2026-06-07T19:34:14.076+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.25s           2026-06-07T19:34:13
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.57s           2026-06-07T19:33:46
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.36s           2026-06-07T19:34:12
+================================================================================
+[2026-06-07T19:34:41.997+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.25s           2026-06-07T19:34:13
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.63s           2026-06-07T19:34:19
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.36s           2026-06-07T19:34:12
+================================================================================
+[2026-06-07T19:35:10.042+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.25s           2026-06-07T19:34:43
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.61s           2026-06-07T19:34:52
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.37s           2026-06-07T19:34:43
+================================================================================
+[2026-06-07T19:35:37.752+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.26s           2026-06-07T19:35:14
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.23s           2026-06-07T19:35:24
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.33s           2026-06-07T19:35:14
+================================================================================
+[2026-06-07T19:36:05.505+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.23s           2026-06-07T19:35:45
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.44s           2026-06-07T19:35:56
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.37s           2026-06-07T19:35:45
+================================================================================
+[2026-06-07T19:36:31.147+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T19:36:31.238+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T19:36:33.426+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.26s           2026-06-07T19:36:16
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -0.47s          2026-06-07T19:36:26
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.41s           2026-06-07T19:36:16
+================================================================================
+[2026-06-07T19:37:00.911+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.62s           2026-06-07T19:36:46
+/opt/airflow/dags/sales_pipeline_dag.py  19831  4.21s             1           0  -0.47s          2026-06-07T19:36:26
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  1.20s           2026-06-07T19:36:48
+================================================================================
+[2026-06-07T19:37:28.736+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T19:37:18
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  4.25s           2026-06-07T19:37:00
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.48s           2026-06-07T19:37:19
+================================================================================
+[2026-06-07T19:37:56.578+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.24s           2026-06-07T19:37:48
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.19s           2026-06-07T19:37:33
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.35s           2026-06-07T19:37:50
+================================================================================
+[2026-06-07T19:38:24.361+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.23s           2026-06-07T19:38:19
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.24s           2026-06-07T19:38:05
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.36s           2026-06-07T19:38:20
+================================================================================
+[2026-06-07T19:38:52.179+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.22s           2026-06-07T19:38:50
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.39s           2026-06-07T19:38:37
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.36s           2026-06-07T19:38:51
+================================================================================
+[2026-06-07T19:39:20.154+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.22s           2026-06-07T19:38:50
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.62s           2026-06-07T19:39:10
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.36s           2026-06-07T19:38:51
+================================================================================
+[2026-06-07T19:39:47.537+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.67s           2026-06-07T19:39:21
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.38s           2026-06-07T19:39:42
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.73s           2026-06-07T19:39:22
+================================================================================
+[2026-06-07T19:40:14.839+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.30s           2026-06-07T19:39:52
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.28s           2026-06-07T19:40:14
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.39s           2026-06-07T19:39:53
+================================================================================
+[2026-06-07T19:40:42.561+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.26s           2026-06-07T19:40:22
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.28s           2026-06-07T19:40:14
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.36s           2026-06-07T19:40:23
+================================================================================
+[2026-06-07T19:41:10.078+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.21s           2026-06-07T19:40:52
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.62s           2026-06-07T19:40:47
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.34s           2026-06-07T19:40:54
+================================================================================
+[2026-06-07T19:41:31.799+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T19:41:31.888+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T19:41:38.184+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.25s           2026-06-07T19:41:23
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.28s           2026-06-07T19:41:18
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.98s           2026-06-07T19:41:25
+================================================================================
+[2026-06-07T19:42:05.832+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.24s           2026-06-07T19:41:53
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.86s           2026-06-07T19:41:51
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  -4.21s          2026-06-07T19:41:53
+================================================================================
+[2026-06-07T19:42:33.213+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.49s           2026-06-07T19:42:24
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -0.76s          2026-06-07T19:42:21
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.78s           2026-06-07T19:42:25
+================================================================================
+[2026-06-07T19:43:01.087+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.33s           2026-06-07T19:42:55
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.86s           2026-06-07T19:42:53
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.63s           2026-06-07T19:42:56
+================================================================================
+[2026-06-07T19:43:29.104+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.48s           2026-06-07T19:43:26
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.88s           2026-06-07T19:43:25
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.73s           2026-06-07T19:43:27
+================================================================================
+[2026-06-07T19:43:56.945+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.48s           2026-06-07T19:43:26
+/opt/airflow/dags/sales_pipeline_dag.py  20039  1.06s             1           0  1.88s           2026-06-07T19:43:25
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.73s           2026-06-07T19:43:27
+================================================================================
+[2026-06-07T19:44:24.922+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.30s           2026-06-07T19:43:58
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.01s           2026-06-07T19:43:57
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.47s           2026-06-07T19:43:58
+================================================================================
+[2026-06-07T19:44:52.658+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.44s           2026-06-07T19:44:30
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.00s           2026-06-07T19:44:30
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.50s           2026-06-07T19:44:29
+================================================================================
+[2026-06-07T19:45:20.845+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T19:45:00
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.10s           2026-06-07T19:45:02
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.70s           2026-06-07T19:45:00
+================================================================================
+[2026-06-07T19:45:48.592+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.26s           2026-06-07T19:45:31
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.74s           2026-06-07T19:45:34
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.46s           2026-06-07T19:45:31
+================================================================================
+[2026-06-07T19:46:16.745+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.32s           2026-06-07T19:46:02
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.94s           2026-06-07T19:46:07
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.42s           2026-06-07T19:46:02
+================================================================================
+[2026-06-07T19:46:31.835+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T19:46:31.919+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T19:46:44.050+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.40s           2026-06-07T19:46:33
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.72s           2026-06-07T19:46:39
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.61s           2026-06-07T19:46:33
+================================================================================
+[2026-06-07T19:47:11.334+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.39s           2026-06-07T19:47:03
+/opt/airflow/dags/sales_pipeline_dag.py  20145  1.48s             1           0  1.72s           2026-06-07T19:46:39
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.53s           2026-06-07T19:47:04
+================================================================================
+[2026-06-07T19:47:38.682+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.32s           2026-06-07T19:47:34
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.82s           2026-06-07T19:47:11
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.43s           2026-06-07T19:47:35
+================================================================================
+[2026-06-07T19:48:06.315+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.29s           2026-06-07T19:48:05
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.80s           2026-06-07T19:47:43
+/opt/airflow/dags/spark_pipeline_dag.py  20172  0.01s             1           0  0.43s           2026-06-07T19:47:35
+================================================================================
+[2026-06-07T19:48:33.768+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.29s           2026-06-07T19:48:05
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.57s           2026-06-07T19:48:15
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.55s           2026-06-07T19:48:06
+================================================================================
+[2026-06-07T19:49:01.846+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T19:48:36
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -0.93s          2026-06-07T19:48:44
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.43s           2026-06-07T19:48:37
+================================================================================
+[2026-06-07T19:49:29.739+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T19:49:07
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.91s           2026-06-07T19:49:17
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.44s           2026-06-07T19:49:07
+================================================================================
+[2026-06-07T19:49:57.016+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.33s           2026-06-07T19:49:38
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.77s           2026-06-07T19:49:49
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.53s           2026-06-07T19:49:38
+================================================================================
+[2026-06-07T19:50:24.724+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T19:50:09
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.77s           2026-06-07T19:50:21
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.55s           2026-06-07T19:50:09
+================================================================================
+[2026-06-07T19:50:52.983+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.44s           2026-06-07T19:50:39
+/opt/airflow/dags/sales_pipeline_dag.py  20257  1.04s             1           0  1.77s           2026-06-07T19:50:21
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.58s           2026-06-07T19:50:40
+================================================================================
+[2026-06-07T19:51:20.348+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T19:51:10
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.75s           2026-06-07T19:50:53
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.48s           2026-06-07T19:51:10
+================================================================================
+[2026-06-07T19:51:32.166+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T19:51:32.256+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T19:51:47.947+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.35s           2026-06-07T19:51:41
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.91s           2026-06-07T19:51:26
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T19:51:41
+================================================================================
+[2026-06-07T19:52:15.619+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T19:52:11
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -0.74s          2026-06-07T19:51:55
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T19:52:12
+================================================================================
+[2026-06-07T19:52:43.104+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.35s           2026-06-07T19:52:42
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.62s           2026-06-07T19:52:27
+/opt/airflow/dags/spark_pipeline_dag.py  20316  0.02s             1           0  0.51s           2026-06-07T19:52:12
+================================================================================
+[2026-06-07T19:53:11.362+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.35s           2026-06-07T19:52:42
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.01s           2026-06-07T19:53:00
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T19:52:43
+================================================================================
+[2026-06-07T19:53:39.022+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T19:53:12
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.68s           2026-06-07T19:53:33
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.62s           2026-06-07T19:53:14
+================================================================================
+[2026-06-07T19:54:06.897+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.33s           2026-06-07T19:53:43
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.79s           2026-06-07T19:54:05
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T19:53:45
+================================================================================
+[2026-06-07T19:54:34.537+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T19:54:14
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.79s           2026-06-07T19:54:05
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.52s           2026-06-07T19:54:15
+================================================================================
+[2026-06-07T19:55:01.895+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.32s           2026-06-07T19:54:44
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.64s           2026-06-07T19:54:36
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.52s           2026-06-07T19:54:46
+================================================================================
+[2026-06-07T19:55:29.465+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.30s           2026-06-07T19:55:15
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -0.74s          2026-06-07T19:55:06
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.54s           2026-06-07T19:55:17
+================================================================================
+[2026-06-07T19:55:57.301+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T19:55:46
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -2.79s          2026-06-07T19:55:34
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T19:55:49
+================================================================================
+[2026-06-07T19:56:24.662+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T19:56:17
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.92s           2026-06-07T19:56:07
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.54s           2026-06-07T19:56:19
+================================================================================
+[2026-06-07T19:56:32.576+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T19:56:32.650+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T19:56:52.315+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T19:56:48
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.90s           2026-06-07T19:56:40
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.53s           2026-06-07T19:56:50
+================================================================================
+[2026-06-07T19:57:19.845+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.35s           2026-06-07T19:57:18
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.67s           2026-06-07T19:57:12
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.53s           2026-06-07T19:56:50
+================================================================================
+[2026-06-07T19:57:47.454+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.35s           2026-06-07T19:57:18
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.77s           2026-06-07T19:57:45
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.54s           2026-06-07T19:57:21
+================================================================================
+[2026-06-07T19:58:15.524+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T19:57:49
+/opt/airflow/dags/sales_pipeline_dag.py  20481  0.01s             1           0  1.77s           2026-06-07T19:57:45
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.49s           2026-06-07T19:57:51
+================================================================================
+[2026-06-07T19:58:42.838+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  -2.40s          2026-06-07T19:58:17
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.95s           2026-06-07T19:58:17
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.46s           2026-06-07T19:58:22
+================================================================================
+[2026-06-07T19:59:10.533+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.31s           2026-06-07T19:58:47
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.77s           2026-06-07T19:58:49
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.43s           2026-06-07T19:58:53
+================================================================================
+[2026-06-07T19:59:38.152+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.33s           2026-06-07T19:59:18
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.81s           2026-06-07T19:59:21
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.40s           2026-06-07T19:59:24
+================================================================================
+[2026-06-07T20:00:06.337+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.43s           2026-06-07T19:59:49
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.74s           2026-06-07T19:59:53
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.56s           2026-06-07T19:59:55
+================================================================================
+[2026-06-07T20:00:33.893+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.38s           2026-06-07T20:00:20
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.76s           2026-06-07T20:00:25
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.43s           2026-06-07T20:00:26
+================================================================================
+[2026-06-07T20:01:01.382+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.42s           2026-06-07T20:00:51
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.52s           2026-06-07T20:00:58
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.42s           2026-06-07T20:00:57
+================================================================================
+[2026-06-07T20:01:29.005+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T20:01:22
+/opt/airflow/dags/sales_pipeline_dag.py  20587  0.72s             1           0  2.52s           2026-06-07T20:00:58
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.55s           2026-06-07T20:01:28
+================================================================================
+[2026-06-07T20:01:33.121+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T20:01:33.199+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T20:01:56.380+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T20:01:53
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.61s           2026-06-07T20:01:29
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.55s           2026-06-07T20:01:28
+================================================================================
+[2026-06-07T20:02:24.295+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.33s           2026-06-07T20:02:23
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.88s           2026-06-07T20:02:01
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  -2.26s          2026-06-07T20:01:56
+================================================================================
+[2026-06-07T20:02:52.354+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.33s           2026-06-07T20:02:23
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.79s           2026-06-07T20:02:34
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.52s           2026-06-07T20:02:27
+================================================================================
+[2026-06-07T20:03:19.692+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.41s           2026-06-07T20:02:54
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.84s           2026-06-07T20:03:06
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.50s           2026-06-07T20:02:58
+================================================================================
+[2026-06-07T20:03:47.255+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T20:03:24
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.91s           2026-06-07T20:03:39
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.59s           2026-06-07T20:03:29
+================================================================================
+[2026-06-07T20:04:14.555+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T20:03:55
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.85s           2026-06-07T20:04:11
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.47s           2026-06-07T20:04:00
+================================================================================
+[2026-06-07T20:04:42.057+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.38s           2026-06-07T20:04:26
+/opt/airflow/dags/sales_pipeline_dag.py  20683  0.01s             1           0  1.85s           2026-06-07T20:04:11
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.50s           2026-06-07T20:04:31
+================================================================================
+[2026-06-07T20:05:09.440+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T20:04:57
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -0.82s          2026-06-07T20:04:41
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.60s           2026-06-07T20:05:02
+================================================================================
+[2026-06-07T20:05:39.069+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T20:05:28
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.79s           2026-06-07T20:05:13
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T20:05:33
+================================================================================
+[2026-06-07T20:06:02.056+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.33s           2026-06-07T20:05:59
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.55s           2026-06-07T20:05:45
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.57s           2026-06-07T20:06:04
+================================================================================
+[2026-06-07T20:06:29.371+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.32s           2026-06-07T20:06:30
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.72s           2026-06-07T20:06:17
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.57s           2026-06-07T20:06:04
+================================================================================
+[2026-06-07T20:06:33.694+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T20:06:33.818+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T20:07:01.242+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py    20753  0.01s             1           0  0.32s           2026-06-07T20:06:30
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.63s           2026-06-07T20:06:50
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.60s           2026-06-07T20:06:35
+================================================================================
+[2026-06-07T20:07:24.280+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  -4.11s          2026-06-07T20:06:57
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.02s           2026-06-07T20:07:22
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T20:07:06
+================================================================================
+[2026-06-07T20:07:51.995+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.39s           2026-06-07T20:07:27
+/opt/airflow/dags/sales_pipeline_dag.py  20779  -1.63s            1           0  2.02s           2026-06-07T20:07:22
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.53s           2026-06-07T20:07:37
+================================================================================
+[2026-06-07T20:08:19.648+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T20:07:58
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -0.70s          2026-06-07T20:07:52
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.59s           2026-06-07T20:08:09
+================================================================================
+[2026-06-07T20:08:47.074+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.35s           2026-06-07T20:08:29
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.95s           2026-06-07T20:08:25
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.52s           2026-06-07T20:08:39
+================================================================================
+[2026-06-07T20:09:14.391+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T20:09:00
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.57s           2026-06-07T20:08:57
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.42s           2026-06-07T20:09:10
+================================================================================
+[2026-06-07T20:09:41.690+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T20:09:31
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.63s           2026-06-07T20:09:29
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.57s           2026-06-07T20:09:42
+================================================================================
+[2026-06-07T20:10:09.603+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.40s           2026-06-07T20:10:02
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.95s           2026-06-07T20:10:01
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.57s           2026-06-07T20:09:42
+================================================================================
+[2026-06-07T20:10:37.677+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.29s           2026-06-07T20:10:33
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.84s           2026-06-07T20:10:34
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.49s           2026-06-07T20:10:13
+================================================================================
+[2026-06-07T20:11:05.092+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.28s           2026-06-07T20:11:04
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -1.01s          2026-06-07T20:11:04
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.41s           2026-06-07T20:10:44
+================================================================================
+[2026-06-07T20:11:32.585+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.28s           2026-06-07T20:11:04
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -1.01s          2026-06-07T20:11:04
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.43s           2026-06-07T20:11:14
+================================================================================
+[2026-06-07T20:11:34.822+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T20:11:34.901+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T20:12:00.880+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T20:11:35
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.66s           2026-06-07T20:11:36
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.40s           2026-06-07T20:11:45
+================================================================================
+[2026-06-07T20:12:28.484+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.33s           2026-06-07T20:12:06
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.90s           2026-06-07T20:12:09
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.57s           2026-06-07T20:12:16
+================================================================================
+[2026-06-07T20:12:56.486+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.30s           2026-06-07T20:12:37
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.88s           2026-06-07T20:12:41
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.58s           2026-06-07T20:12:47
+================================================================================
+[2026-06-07T20:13:24.030+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.41s           2026-06-07T20:13:07
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.02s           2026-06-07T20:13:13
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.48s           2026-06-07T20:13:18
+================================================================================
+[2026-06-07T20:13:51.872+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T20:13:38
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.83s           2026-06-07T20:13:45
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.41s           2026-06-07T20:13:48
+================================================================================
+[2026-06-07T20:14:19.143+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T20:14:09
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -1.06s          2026-06-07T20:14:14
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  -4.15s          2026-06-07T20:14:14
+================================================================================
+[2026-06-07T20:14:46.846+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.27s           2026-06-07T20:14:40
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.56s           2026-06-07T20:14:46
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.42s           2026-06-07T20:14:45
+================================================================================
+[2026-06-07T20:15:14.943+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.27s           2026-06-07T20:15:11
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.56s           2026-06-07T20:14:46
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.42s           2026-06-07T20:14:45
+================================================================================
+[2026-06-07T20:15:42.261+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.26s           2026-06-07T20:15:42
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.57s           2026-06-07T20:15:18
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.41s           2026-06-07T20:15:16
+================================================================================
+[2026-06-07T20:16:10.009+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.26s           2026-06-07T20:15:42
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.85s           2026-06-07T20:15:51
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.46s           2026-06-07T20:15:47
+================================================================================
+[2026-06-07T20:16:35.581+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T20:16:35.708+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T20:16:37.957+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T20:16:13
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.82s           2026-06-07T20:16:23
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.43s           2026-06-07T20:16:18
+================================================================================
+[2026-06-07T20:17:05.757+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.58s           2026-06-07T20:16:45
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.62s           2026-06-07T20:16:55
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.62s           2026-06-07T20:16:48
+================================================================================
+[2026-06-07T20:17:33.236+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.42s           2026-06-07T20:17:15
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.81s           2026-06-07T20:17:27
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.52s           2026-06-07T20:17:19
+================================================================================
+[2026-06-07T20:18:00.910+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T20:17:46
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.76s           2026-06-07T20:17:59
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.54s           2026-06-07T20:17:50
+================================================================================
+[2026-06-07T20:18:28.722+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.32s           2026-06-07T20:18:17
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.76s           2026-06-07T20:17:59
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.54s           2026-06-07T20:18:21
+================================================================================
+[2026-06-07T20:18:56.559+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.30s           2026-06-07T20:18:48
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.97s           2026-06-07T20:18:31
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.45s           2026-06-07T20:18:52
+================================================================================
+[2026-06-07T20:19:23.906+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.42s           2026-06-07T20:19:19
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.83s           2026-06-07T20:19:03
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T20:19:23
+================================================================================
+[2026-06-07T20:19:51.761+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.41s           2026-06-07T20:19:50
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.70s           2026-06-07T20:19:35
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T20:19:23
+================================================================================
+[2026-06-07T20:20:19.098+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.41s           2026-06-07T20:19:50
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.80s           2026-06-07T20:20:08
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.47s           2026-06-07T20:19:54
+================================================================================
+[2026-06-07T20:20:47.269+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T20:20:21
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -0.85s          2026-06-07T20:20:37
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.47s           2026-06-07T20:20:25
+================================================================================
+[2026-06-07T20:21:14.564+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T20:20:52
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.52s           2026-06-07T20:21:09
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.49s           2026-06-07T20:20:56
+================================================================================
+[2026-06-07T20:21:35.720+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T20:21:35.842+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T20:21:42.207+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.32s           2026-06-07T20:21:22
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.95s           2026-06-07T20:21:42
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.49s           2026-06-07T20:21:27
+================================================================================
+[2026-06-07T20:22:10.495+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T20:21:53
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.95s           2026-06-07T20:21:42
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.44s           2026-06-07T20:21:58
+================================================================================
+[2026-06-07T20:22:38.541+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.38s           2026-06-07T20:22:24
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.94s           2026-06-07T20:22:14
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.50s           2026-06-07T20:22:28
+================================================================================
+[2026-06-07T20:23:06.028+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.26s           2026-06-07T20:22:55
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.73s           2026-06-07T20:22:46
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.48s           2026-06-07T20:22:59
+================================================================================
+[2026-06-07T20:23:33.596+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.26s           2026-06-07T20:23:26
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.82s           2026-06-07T20:23:18
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.64s           2026-06-07T20:23:31
+================================================================================
+[2026-06-07T20:24:01.462+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.30s           2026-06-07T20:23:57
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.99s           2026-06-07T20:23:51
+/opt/airflow/dags/spark_pipeline_dag.py  21280  0.01s             1           0  0.64s           2026-06-07T20:23:31
+================================================================================
+[2026-06-07T20:24:29.047+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.42s           2026-06-07T20:24:27
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.71s           2026-06-07T20:24:23
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.49s           2026-06-07T20:24:01
+================================================================================
+[2026-06-07T20:24:56.652+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.42s           2026-06-07T20:24:27
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.78s           2026-06-07T20:24:56
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T20:24:32
+================================================================================
+[2026-06-07T20:25:24.082+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.31s           2026-06-07T20:24:58
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.78s           2026-06-07T20:24:56
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.55s           2026-06-07T20:25:03
+================================================================================
+[2026-06-07T20:25:51.881+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T20:25:28
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.79s           2026-06-07T20:25:29
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.44s           2026-06-07T20:25:34
+================================================================================
+[2026-06-07T20:26:19.369+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.38s           2026-06-07T20:26:00
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.64s           2026-06-07T20:26:01
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.39s           2026-06-07T20:26:05
+================================================================================
+[2026-06-07T20:26:36.009+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T20:26:36.121+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T20:26:47.072+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.29s           2026-06-07T20:26:30
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.85s           2026-06-07T20:26:33
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.54s           2026-06-07T20:26:36
+================================================================================
+[2026-06-07T20:27:14.994+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T20:27:01
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.77s           2026-06-07T20:27:05
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.60s           2026-06-07T20:27:07
+================================================================================
+[2026-06-07T20:27:42.522+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.28s           2026-06-07T20:27:32
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.67s           2026-06-07T20:27:37
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.52s           2026-06-07T20:27:38
+================================================================================
+[2026-06-07T20:28:10.508+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.35s           2026-06-07T20:28:02
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.97s           2026-06-07T20:28:09
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.44s           2026-06-07T20:28:09
+================================================================================
+[2026-06-07T20:28:38.454+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.32s           2026-06-07T20:28:33
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.97s           2026-06-07T20:28:09
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.44s           2026-06-07T20:28:09
+================================================================================
+[2026-06-07T20:29:05.889+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.28s           2026-06-07T20:29:03
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.84s           2026-06-07T20:28:41
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.41s           2026-06-07T20:28:40
+================================================================================
+[2026-06-07T20:29:33.229+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.28s           2026-06-07T20:29:03
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.75s           2026-06-07T20:29:13
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.45s           2026-06-07T20:29:11
+================================================================================
+[2026-06-07T20:30:00.965+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T20:29:34
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.72s           2026-06-07T20:29:45
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.45s           2026-06-07T20:29:42
+================================================================================
+[2026-06-07T20:30:28.824+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.40s           2026-06-07T20:30:05
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.90s           2026-06-07T20:30:17
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.50s           2026-06-07T20:30:13
+================================================================================
+[2026-06-07T20:30:56.970+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T20:30:36
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.88s           2026-06-07T20:30:49
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.48s           2026-06-07T20:30:40
+================================================================================
+[2026-06-07T20:31:24.599+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.31s           2026-06-07T20:31:07
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.79s           2026-06-07T20:31:21
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.56s           2026-06-07T20:31:11
+================================================================================
+[2026-06-07T20:31:36.021+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T20:31:36.160+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T20:31:52.211+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.31s           2026-06-07T20:31:38
+/opt/airflow/dags/sales_pipeline_dag.py  21519  0.01s             1           0  1.79s           2026-06-07T20:31:21
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.52s           2026-06-07T20:31:42
+================================================================================
+[2026-06-07T20:32:19.625+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.32s           2026-06-07T20:32:08
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.83s           2026-06-07T20:31:54
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.48s           2026-06-07T20:32:13
+================================================================================
+[2026-06-07T20:32:47.721+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T20:32:40
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.95s           2026-06-07T20:32:26
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.53s           2026-06-07T20:32:44
+================================================================================
+[2026-06-07T20:33:15.046+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.35s           2026-06-07T20:33:11
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.69s           2026-06-07T20:32:58
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.50s           2026-06-07T20:33:15
+================================================================================
+[2026-06-07T20:33:42.506+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.38s           2026-06-07T20:33:41
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.57s           2026-06-07T20:33:30
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.50s           2026-06-07T20:33:15
+================================================================================
+[2026-06-07T20:34:10.254+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.38s           2026-06-07T20:33:41
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.01s           2026-06-07T20:34:02
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.49s           2026-06-07T20:33:46
+================================================================================
+[2026-06-07T20:34:38.230+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.38s           2026-06-07T20:34:12
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.27s           2026-06-07T20:34:34
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.59s           2026-06-07T20:34:17
+================================================================================
+[2026-06-07T20:35:06.056+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.25s           2026-06-07T20:34:43
+/opt/airflow/dags/sales_pipeline_dag.py  21615  1.07s             1           0  1.27s           2026-06-07T20:34:34
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.32s           2026-06-07T20:34:48
+================================================================================
+[2026-06-07T20:35:33.518+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.24s           2026-06-07T20:35:13
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.23s           2026-06-07T20:35:06
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.49s           2026-06-07T20:35:19
+================================================================================
+[2026-06-07T20:36:01.495+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.23s           2026-06-07T20:35:44
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.32s           2026-06-07T20:35:37
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.34s           2026-06-07T20:35:49
+================================================================================
+[2026-06-07T20:36:29.226+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.26s           2026-06-07T20:36:15
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.25s           2026-06-07T20:36:09
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.35s           2026-06-07T20:36:20
+================================================================================
+[2026-06-07T20:36:37.116+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T20:36:37.183+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T20:36:56.752+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.31s           2026-06-07T20:36:45
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.31s           2026-06-07T20:36:41
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.38s           2026-06-07T20:36:51
+================================================================================
+[2026-06-07T20:37:24.129+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.23s           2026-06-07T20:37:16
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.36s           2026-06-07T20:37:13
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.38s           2026-06-07T20:37:22
+================================================================================
+[2026-06-07T20:37:51.540+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.23s           2026-06-07T20:37:47
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.31s           2026-06-07T20:37:45
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.38s           2026-06-07T20:37:22
+================================================================================
+[2026-06-07T20:38:18.825+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.24s           2026-06-07T20:38:17
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.27s           2026-06-07T20:38:16
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.31s           2026-06-07T20:37:52
+================================================================================
+[2026-06-07T20:38:46.341+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.24s           2026-06-07T20:38:17
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.27s           2026-06-07T20:38:16
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.35s           2026-06-07T20:38:23
+================================================================================
+[2026-06-07T20:39:13.684+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.25s           2026-06-07T20:38:48
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.29s           2026-06-07T20:38:48
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.32s           2026-06-07T20:38:54
+================================================================================
+[2026-06-07T20:39:41.012+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.28s           2026-06-07T20:39:19
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.34s           2026-06-07T20:39:20
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.37s           2026-06-07T20:39:25
+================================================================================
+[2026-06-07T20:40:09.311+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.25s           2026-06-07T20:39:49
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.35s           2026-06-07T20:39:51
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.39s           2026-06-07T20:39:56
+================================================================================
+[2026-06-07T20:40:36.970+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.32s           2026-06-07T20:40:20
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.35s           2026-06-07T20:40:23
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.35s           2026-06-07T20:40:27
+================================================================================
+[2026-06-07T20:41:04.291+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.24s           2026-06-07T20:40:50
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.88s           2026-06-07T20:40:55
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.52s           2026-06-07T20:40:57
+================================================================================
+[2026-06-07T20:41:31.702+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.42s           2026-06-07T20:41:21
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.76s           2026-06-07T20:41:27
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.42s           2026-06-07T20:41:28
+================================================================================
+[2026-06-07T20:41:38.093+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T20:41:38.231+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T20:41:59.064+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.32s           2026-06-07T20:41:52
+/opt/airflow/dags/sales_pipeline_dag.py  21828  1.22s             1           0  1.76s           2026-06-07T20:41:27
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.45s           2026-06-07T20:41:59
+================================================================================
+[2026-06-07T20:42:27.074+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.31s           2026-06-07T20:42:22
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.70s           2026-06-07T20:41:59
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.45s           2026-06-07T20:41:59
+================================================================================
+[2026-06-07T20:42:54.355+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.23s           2026-06-07T20:42:53
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.68s           2026-06-07T20:42:31
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.32s           2026-06-07T20:42:29
+================================================================================
+[2026-06-07T20:43:22.174+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.23s           2026-06-07T20:42:53
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.29s           2026-06-07T20:43:02
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.34s           2026-06-07T20:43:00
+================================================================================
+[2026-06-07T20:43:50.060+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.22s           2026-06-07T20:43:24
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.28s           2026-06-07T20:43:34
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.37s           2026-06-07T20:43:30
+================================================================================
+[2026-06-07T20:44:17.657+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.22s           2026-06-07T20:43:55
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.60s           2026-06-07T20:44:06
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.36s           2026-06-07T20:44:01
+================================================================================
+[2026-06-07T20:44:44.951+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.23s           2026-06-07T20:44:25
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.32s           2026-06-07T20:44:37
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.31s           2026-06-07T20:44:32
+================================================================================
+[2026-06-07T20:45:12.847+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.24s           2026-06-07T20:44:56
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.78s           2026-06-07T20:45:09
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.35s           2026-06-07T20:45:03
+================================================================================
+[2026-06-07T20:45:40.647+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.32s           2026-06-07T20:45:27
+/opt/airflow/dags/sales_pipeline_dag.py  21945  0.01s             1           0  1.78s           2026-06-07T20:45:09
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.49s           2026-06-07T20:45:34
+================================================================================
+[2026-06-07T20:46:07.993+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.26s           2026-06-07T20:45:58
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.74s           2026-06-07T20:45:42
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.49s           2026-06-07T20:46:05
+================================================================================
+[2026-06-07T20:46:35.507+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.35s           2026-06-07T20:46:29
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.74s           2026-06-07T20:46:14
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.49s           2026-06-07T20:46:05
+================================================================================
+[2026-06-07T20:46:38.285+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T20:46:38.408+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T20:47:03.123+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.30s           2026-06-07T20:47:00
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.83s           2026-06-07T20:46:46
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T20:46:37
+================================================================================
+[2026-06-07T20:47:30.444+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py    21999  0.01s             1           0  0.30s           2026-06-07T20:47:00
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.64s           2026-06-07T20:47:18
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  -2.28s          2026-06-07T20:47:05
+================================================================================
+[2026-06-07T20:47:58.116+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.38s           2026-06-07T20:47:30
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.86s           2026-06-07T20:47:51
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.49s           2026-06-07T20:47:36
+================================================================================
+[2026-06-07T20:48:25.618+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T20:48:01
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.81s           2026-06-07T20:48:23
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.47s           2026-06-07T20:48:07
+================================================================================
+[2026-06-07T20:48:53.151+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.30s           2026-06-07T20:48:32
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.81s           2026-06-07T20:48:23
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.44s           2026-06-07T20:48:38
+================================================================================
+[2026-06-07T20:49:20.560+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.27s           2026-06-07T20:49:03
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.74s           2026-06-07T20:48:56
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T20:49:09
+================================================================================
+[2026-06-07T20:49:48.517+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T20:49:35
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.58s           2026-06-07T20:49:27
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.41s           2026-06-07T20:49:39
+================================================================================
+[2026-06-07T20:50:16.065+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.33s           2026-06-07T20:50:05
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.89s           2026-06-07T20:50:00
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.44s           2026-06-07T20:50:10
+================================================================================
+[2026-06-07T20:50:43.433+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T20:50:36
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.80s           2026-06-07T20:50:31
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.52s           2026-06-07T20:50:41
+================================================================================
+[2026-06-07T20:51:10.730+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T20:51:07
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.87s           2026-06-07T20:51:04
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.52s           2026-06-07T20:50:41
+================================================================================
+[2026-06-07T20:51:38.152+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.39s           2026-06-07T20:51:38
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.78s           2026-06-07T20:51:36
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.53s           2026-06-07T20:51:12
+================================================================================
+[2026-06-07T20:51:38.812+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T20:51:38.936+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T20:52:05.968+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.39s           2026-06-07T20:51:38
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.78s           2026-06-07T20:51:36
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T20:51:43
+================================================================================
+[2026-06-07T20:52:33.933+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.32s           2026-06-07T20:52:08
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -0.95s          2026-06-07T20:52:06
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.56s           2026-06-07T20:52:14
+================================================================================
+[2026-06-07T20:53:02.070+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.31s           2026-06-07T20:52:39
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.56s           2026-06-07T20:52:38
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.50s           2026-06-07T20:52:45
+================================================================================
+[2026-06-07T20:53:29.346+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.26s           2026-06-07T20:53:10
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.69s           2026-06-07T20:53:11
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.52s           2026-06-07T20:53:16
+================================================================================
+[2026-06-07T20:53:57.156+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.35s           2026-06-07T20:53:41
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.93s           2026-06-07T20:53:43
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.49s           2026-06-07T20:53:47
+================================================================================
+[2026-06-07T20:54:24.571+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.38s           2026-06-07T20:54:12
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.55s           2026-06-07T20:54:14
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.47s           2026-06-07T20:54:18
+================================================================================
+[2026-06-07T20:54:52.873+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.32s           2026-06-07T20:54:42
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.71s           2026-06-07T20:54:47
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.44s           2026-06-07T20:54:49
+================================================================================
+[2026-06-07T20:55:20.417+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.27s           2026-06-07T20:55:13
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.67s           2026-06-07T20:55:19
+/opt/airflow/dags/spark_pipeline_dag.py  22244  0.32s             1           0  0.44s           2026-06-07T20:54:49
+================================================================================
+[2026-06-07T20:55:45.537+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.39s           2026-06-07T20:55:44
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.67s           2026-06-07T20:55:19
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  -2.26s          2026-06-07T20:55:17
+================================================================================
+[2026-06-07T20:56:13.078+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T20:56:14
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.80s           2026-06-07T20:55:51
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.56s           2026-06-07T20:55:48
+================================================================================
+[2026-06-07T20:56:39.087+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T20:56:39.213+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T20:56:40.933+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T20:56:14
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.09s           2026-06-07T20:56:23
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.48s           2026-06-07T20:56:19
+================================================================================
+[2026-06-07T20:57:08.420+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.32s           2026-06-07T20:56:45
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.91s           2026-06-07T20:56:55
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.59s           2026-06-07T20:56:50
+================================================================================
+[2026-06-07T20:57:36.462+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.33s           2026-06-07T20:57:16
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.73s           2026-06-07T20:57:28
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.42s           2026-06-07T20:57:21
+================================================================================
+[2026-06-07T20:58:03.989+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T20:57:47
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.86s           2026-06-07T20:58:00
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.55s           2026-06-07T20:57:51
+================================================================================
+[2026-06-07T20:58:31.479+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.37s           2026-06-07T20:58:17
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -0.83s          2026-06-07T20:58:29
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.45s           2026-06-07T20:58:22
+================================================================================
+[2026-06-07T20:58:59.127+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.39s           2026-06-07T20:58:48
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -0.83s          2026-06-07T20:58:29
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.64s           2026-06-07T20:58:53
+================================================================================
+[2026-06-07T20:59:26.457+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.39s           2026-06-07T20:59:18
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.96s           2026-06-07T20:59:02
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.43s           2026-06-07T20:59:24
+================================================================================
+[2026-06-07T20:59:53.911+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.38s           2026-06-07T20:59:49
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.75s           2026-06-07T20:59:34
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.43s           2026-06-07T20:59:24
+================================================================================
+[2026-06-07T21:00:21.725+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T21:00:20
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.73s           2026-06-07T21:00:06
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.48s           2026-06-07T20:59:55
+================================================================================
+[2026-06-07T21:00:49.642+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.36s           2026-06-07T21:00:20
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.04s           2026-06-07T21:00:39
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T21:00:26
+================================================================================
+[2026-06-07T21:01:17.007+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.39s           2026-06-07T21:00:51
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  3.28s           2026-06-07T21:01:13
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T21:00:58
+================================================================================
+[2026-06-07T21:01:39.513+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T21:01:41.140+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T21:01:45.185+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.80s           2026-06-07T21:01:22
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -1.22s          2026-06-07T21:01:44
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  1.14s           2026-06-07T21:01:29
+================================================================================
+[2026-06-07T21:02:12.637+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.28s           2026-06-07T21:01:53
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -1.22s          2026-06-07T21:01:44
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.49s           2026-06-07T21:02:00
+================================================================================
+[2026-06-07T21:02:40.140+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.39s           2026-06-07T21:02:23
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.68s           2026-06-07T21:02:16
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.46s           2026-06-07T21:02:30
+================================================================================
+[2026-06-07T21:03:07.454+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.33s           2026-06-07T21:02:54
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.77s           2026-06-07T21:02:48
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.48s           2026-06-07T21:03:01
+================================================================================
+[2026-06-07T21:03:34.717+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.52s           2026-06-07T21:03:25
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.64s           2026-06-07T21:03:21
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.51s           2026-06-07T21:03:32
+================================================================================
+[2026-06-07T22:30:15.217+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T22:30:15.955+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T22:30:18.917+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  1.30s           2026-06-07T22:30:16
+/opt/airflow/dags/sales_pipeline_dag.py  22515  2.33s             1           0  1.82s           2026-06-07T21:03:53
+/opt/airflow/dags/spark_pipeline_dag.py  22510  2.76s             1           0  0.51s           2026-06-07T21:03:32
+================================================================================
+[2026-06-07T22:30:46.620+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py    22523  0.01s             1           0  1.30s           2026-06-07T22:30:16
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  11.08s          2026-06-07T22:30:27
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  6.32s           2026-06-07T22:30:22
+================================================================================
+[2026-06-07T22:31:09.605+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.23s           2026-06-07T22:30:46
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  2.11s           2026-06-07T22:30:59
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.43s           2026-06-07T22:30:53
+================================================================================
+[2026-06-07T22:31:37.440+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.29s           2026-06-07T22:31:17
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.34s           2026-06-07T22:31:31
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.42s           2026-06-07T22:31:24
+================================================================================
+[2026-06-07T22:32:05.092+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.26s           2026-06-07T22:31:47
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  -0.99s          2026-06-07T22:32:00
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.33s           2026-06-07T22:31:55
+================================================================================
+[2026-06-07T22:32:32.513+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.34s           2026-06-07T22:32:18
+/opt/airflow/dags/sales_pipeline_dag.py  22581  1.53s             1           0  -0.99s          2026-06-07T22:32:00
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.39s           2026-06-07T22:32:27
+================================================================================
+[2026-06-07T22:32:59.866+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.32s           2026-06-07T22:32:50
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.66s           2026-06-07T22:32:32
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.49s           2026-06-07T22:32:58
+================================================================================
+[2026-06-07T22:33:27.198+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.23s           2026-06-07T22:33:21
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.41s           2026-06-07T22:33:04
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.49s           2026-06-07T22:32:58
+================================================================================
+[2026-06-07T22:33:54.762+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.50s           2026-06-07T22:33:51
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.50s           2026-06-07T22:33:36
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.63s           2026-06-07T22:33:29
+================================================================================
+[2026-06-07T22:34:22.190+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py    22635  0.02s             1           0  0.50s           2026-06-07T22:33:51
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.65s           2026-06-07T22:34:08
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.44s           2026-06-07T22:34:00
+================================================================================
+[2026-06-07T22:34:49.597+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  0.43s           2026-06-07T22:34:22
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  1.63s           2026-06-07T22:34:40
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  0.48s           2026-06-07T22:34:32
+================================================================================
+[2026-06-07T22:35:15.920+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-06-07T22:35:16.563+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-07T22:35:16.897+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  3.13s           2026-06-07T22:34:56
+/opt/airflow/dags/sales_pipeline_dag.py  22661  5.48s             1           0  1.63s           2026-06-07T22:34:40
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  3.26s           2026-06-07T22:35:05
+================================================================================
+[2026-06-07T22:35:44.553+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  2.92s           2026-06-07T22:35:29
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  13.16s          2026-06-07T22:35:24
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  4.49s           2026-06-07T22:35:40
+================================================================================
+[2026-06-07T22:36:12.196+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  2.42s           2026-06-07T22:36:02
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  12.78s          2026-06-07T22:36:08
+/opt/airflow/dags/spark_pipeline_dag.py  22688  1.14s             1           0  4.49s           2026-06-07T22:35:40
+================================================================================
+[2026-06-07T22:36:40.003+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  2.00s           2026-06-07T22:36:35
+/opt/airflow/dags/sales_pipeline_dag.py  22698  1.30s             1           0  12.78s          2026-06-07T22:36:08
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  5.12s           2026-06-07T22:36:16
+================================================================================
+[2026-06-07T22:37:07.945+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py    22709  2.22s             1           0  2.00s           2026-06-07T22:36:35
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  17.30s          2026-06-07T22:36:55
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  4.24s           2026-06-07T22:36:50
+================================================================================
+[2026-06-07T22:37:35.842+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  2.57s           2026-06-07T22:37:08
+/opt/airflow/dags/sales_pipeline_dag.py  22719  9.19s             1           0  17.30s          2026-06-07T22:36:55
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  3.88s           2026-06-07T22:37:25
+================================================================================
+[2026-06-07T22:38:03.906+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  2.86s           2026-06-07T22:37:41
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  10.66s          2026-06-07T22:37:37
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  1.71s           2026-06-07T22:37:57
+================================================================================
+[2026-06-07T22:38:31.829+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  4.15s           2026-06-07T22:38:16
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  18.28s          2026-06-07T22:38:25
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  3.61s           2026-06-07T22:38:31
+================================================================================
+[2026-06-07T22:38:59.891+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  1.84s           2026-06-07T22:38:48
+/opt/airflow/dags/sales_pipeline_dag.py  22756  3.68s             1           0  18.28s          2026-06-07T22:38:25
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  3.61s           2026-06-07T22:38:31
+================================================================================
+[2026-06-07T22:39:28.113+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_pipeline_dag.py                             1           0  4.79s           2026-06-07T22:39:23
+/opt/airflow/dags/sales_pipeline_dag.py                           1           0  18.16s          2026-06-07T22:39:14
+/opt/airflow/dags/spark_pipeline_dag.py                           1           0  3.92s           2026-06-07T22:39:06
+================================================================================
