@@ -1,0 +1,17 @@
+[
+  {
+    "match_id": "1",
+    "champion": "Zed",
+    "kills": "10"
+  },
+  {
+    "match_id": "3",
+    "champion": "Zed",
+    "kills": "8"
+  },
+  {
+    "match_id": "5",
+    "champion": "Ahri",
+    "kills": "5"
+  }
+]
